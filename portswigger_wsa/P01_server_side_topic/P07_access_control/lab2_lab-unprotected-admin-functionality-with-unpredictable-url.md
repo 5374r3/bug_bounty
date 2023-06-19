@@ -4,7 +4,9 @@
 
 ## Solve the lab by accessing the admin panel, and using it to delete the user `carlos`.
 
-### step1
+---
+
+### step 1
 
 open url
 see the response of home page

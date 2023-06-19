@@ -4,7 +4,9 @@
 
 ## Solve the lab by deleting the user `carlos`
 
-### step1
+---
+
+### step 1
 
 https://0ad9005504a61c92c0b763a5004000bc.web-security-academy.net/
 add /robots.txt

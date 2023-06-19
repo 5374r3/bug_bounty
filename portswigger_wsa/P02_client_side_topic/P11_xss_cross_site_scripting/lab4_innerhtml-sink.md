@@ -6,7 +6,9 @@
 
 ### Note: The `innerHTML` sink doesn't accept `script` elements on any modern browser, nor will `svg onload` events fire. This means you will need to use alternative elements like `img` or `iframe`
 
-### step1
+---
+
+### step 1
 
 search test on search box
 

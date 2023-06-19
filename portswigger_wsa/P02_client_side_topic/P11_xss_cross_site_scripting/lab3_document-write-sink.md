@@ -10,7 +10,9 @@ var results = document.getElementById("results");
 results.innerHTML = "You searched for: " + search;
 ```
 
-### step1
+---
+
+### step 1
 
 search something on search box for eg. search test
 inspect the page

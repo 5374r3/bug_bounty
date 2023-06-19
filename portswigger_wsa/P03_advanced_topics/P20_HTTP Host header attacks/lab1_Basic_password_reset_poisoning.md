@@ -4,7 +4,9 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`. Any emails sent to this account can be read via the email client on the exploit server.
 
-### step1
+---
+
+### step 1
 
 click on forget button and enter _wiener_ as _username_
 and enter password

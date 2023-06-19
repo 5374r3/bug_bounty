@@ -4,7 +4,9 @@
 
 ## To solve the lab, smuggle a request to the back-end server that accesses the admin panel and deletes the user `carlos`.
 
-### step1
+---
+
+### step 1
 
 ```
 Transfer-Encoding: chunked

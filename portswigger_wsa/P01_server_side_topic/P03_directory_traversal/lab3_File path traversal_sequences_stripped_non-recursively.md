@@ -6,7 +6,9 @@
 
 ## To solve the lab, retrieve the contents of the `/etc/passwd` file.
 
-### step1
+---
+
+### step 1
 
 intercept image in burpsuite
 GET /image?filename=21.jpg HTTP/1.1

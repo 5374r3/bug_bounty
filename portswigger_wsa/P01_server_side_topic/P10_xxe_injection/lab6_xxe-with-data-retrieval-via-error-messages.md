@@ -6,7 +6,9 @@
 
 ## The lab contains a link to an exploit server on a different domain where you can host your malicious DTD.
 
-### step1
+---
+
+### step 1
 
 copy the line below to exploit url
 

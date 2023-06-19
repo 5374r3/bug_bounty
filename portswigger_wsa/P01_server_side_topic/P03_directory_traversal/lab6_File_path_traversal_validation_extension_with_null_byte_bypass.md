@@ -8,7 +8,9 @@
 
 ### Note: =========> Null Byte Injection is an active exploitation technique used to bypass sanity checking filters in web infrastructure by adding URL-encoded null byte characters (i.e. %00, or 0x00 in hex) to the user-supplied data.
 
-### step1
+---
+
+### step 1
 
 GET /image?filename=21.jpg HTTP/1.1
 

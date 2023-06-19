@@ -8,7 +8,9 @@
 
 ## solution:
 
-### ### step1
+### **\_\_\_\_**
+
+### step 1
 
 ![screenshot](./images/lab3_host.png)
 

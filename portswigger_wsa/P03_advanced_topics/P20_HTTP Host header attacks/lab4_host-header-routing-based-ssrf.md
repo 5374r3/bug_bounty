@@ -6,7 +6,9 @@
 
 ### Note: Burp collaborator used so Burpsuite Pro will used to solved the lab
 
-### step1
+---
+
+### step 1
 
 send Homepage(/) to the repeter
 
@@ -76,7 +78,9 @@ inspect ### step7
 
 ![screenshot](./images/lab4_inspect_admin_page_for_csrf.png)
 
-### step10
+---
+
+### step 10
 
 add _GET /admin/delete?csrf=engoKCu9WKZE7R4XsgDJxYzbkhNJMD8E&username=carlos_
 

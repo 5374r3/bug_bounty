@@ -6,7 +6,9 @@
 
 ## To solve the lab, exploit the blind OS [command injection] vulnerability to cause a 10 second delay.
 
-### step1
+---
+
+### step 1
 
 ```javascript
 csrf=FYQE1u0gv94XVbuNZ2k2zbN4JoqjosCK&name=majnu&email=jemof16874%40jobsfeel.com&subject=testinh&message=hi+hello+who+are+you

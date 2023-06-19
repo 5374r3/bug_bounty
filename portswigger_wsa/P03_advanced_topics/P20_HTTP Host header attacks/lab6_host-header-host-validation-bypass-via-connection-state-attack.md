@@ -4,7 +4,9 @@
 
 ## To solve the lab, exploit this behavior to access an internal admin panel located at `192.168.0.1/admin`, then delete the user `carlos`.
 
-### step1
+---
+
+### step 1
 
 ![screenshot](./images/lab6_homepage_repeter.png)
 

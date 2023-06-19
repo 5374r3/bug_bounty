@@ -4,7 +4,9 @@
 
 ## To solve the lab, deliver an exploit to the victim that calls the `print()` function in their browser.
 
-### step1
+---
+
+### step 1
 
 open lab
 view page source

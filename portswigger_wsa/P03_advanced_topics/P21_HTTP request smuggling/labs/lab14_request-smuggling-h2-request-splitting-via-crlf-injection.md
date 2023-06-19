@@ -6,6 +6,8 @@
 
 ## The connection to the back-end is reset every 10 requests, so don't worry if you get it into a bad state - just send a few normal requests to get a fresh connection.
 
+---
+
 step 1
 send homepage to repeater
 
@@ -44,7 +46,9 @@ Content-Length: 0
 
 step 5
 change value
-send request using step 1
+send request using **\_\_\_\_**
+
+step 1
 
 ```http
 GET /admin HTTP/1.1

@@ -4,7 +4,9 @@
 
 ## To solve this lab, submit a comment that calls the `alert` function when the blog post is viewed.
 
-### step1
+---
+
+### step 1
 
 `csrf=EmoyMhbu9LaNFmVBLnBV4Si0ATCL6Fz3&postId=1&comment=<p>hello</p>&name=hello&email=tes%40gmail.com&website=`
 

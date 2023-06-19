@@ -12,7 +12,9 @@
 
 ### CL.TE => the front-end server uses the `Content-Length` header and the back-end server uses the `Transfer-Encoding` header.
 
-### step1
+---
+
+### step 1
 
 send home page to the repeater
 

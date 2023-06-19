@@ -6,7 +6,9 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`
 
-### step1 login
+---
+
+### step 1 login
 
 and change email and send to repeater
 Referer: https://0a43001e04d993ff82467bab00ad0052.web-security-academy.net/my-account

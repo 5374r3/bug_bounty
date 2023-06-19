@@ -2,7 +2,9 @@
 
 ## This lab discloses sensitive information via its version control history. To solve the lab, obtain the password for the `administrator` user then log in and delete Carlos's account.
 
-### step1
+---
+
+### step 1
 
 https://0aab008103217307c20cd55f009d0052.web-security-academy.net/
 add /.git to see git file

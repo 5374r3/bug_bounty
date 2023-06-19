@@ -6,7 +6,9 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`
 
-### step1
+---
+
+### step 1
 
 login in to account using userid and password
 

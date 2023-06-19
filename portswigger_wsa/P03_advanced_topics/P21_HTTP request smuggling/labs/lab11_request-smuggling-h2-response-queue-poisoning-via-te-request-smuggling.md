@@ -6,6 +6,8 @@
 
 ## The connection to the back-end is reset every 10 requests, so don't worry if you get it into a bad state - just send a few normal requests to get a fresh connection
 
+---
+
 step 1
 
 ```

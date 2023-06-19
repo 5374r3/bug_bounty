@@ -10,7 +10,9 @@
 
 save as test.php
 
-### step1
+---
+
+### step 1
 
 login using userid and password
 upload any images and try to upload expolit code file it will not upload

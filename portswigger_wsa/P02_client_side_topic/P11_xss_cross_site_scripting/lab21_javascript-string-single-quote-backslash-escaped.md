@@ -4,7 +4,9 @@
 
 ## To solve this lab, perform a cross-site scripting attack that breaks out of the JavaScript string and calls the `alert` function.
 
-### step1
+---
+
+### step 1
 
 search something
 

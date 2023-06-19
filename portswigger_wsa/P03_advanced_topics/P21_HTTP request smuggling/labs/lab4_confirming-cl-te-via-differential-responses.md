@@ -4,7 +4,9 @@
 
 ## To solve the lab, smuggle a request to the back-end server, so that a subsequent request for `/` (the web root) triggers a 404 Not Found response.
 
-### step1
+---
+
+### step 1
 
 change post request to get request
 change protocol from HTTP/2 to HTTP/1.1

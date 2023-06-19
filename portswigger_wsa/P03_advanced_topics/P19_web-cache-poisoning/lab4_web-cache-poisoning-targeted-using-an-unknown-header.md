@@ -4,7 +4,9 @@
 
 ### HINT: use extension param miner
 
-### step1
+---
+
+### step 1
 
 right click on / (home page of the lab) go to extension then param miner then guess param then guess header now go to extension
 

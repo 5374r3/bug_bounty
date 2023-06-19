@@ -6,7 +6,9 @@
 
 use incongnito for administrator and normal browser for wiener
 
-### step1
+---
+
+### step 1
 
 login wiener
 and login administrator on incognito mode

@@ -6,7 +6,9 @@
 
 ## To solve the lab, inject an `XInclude` statement to retrieve the contents of the `/etc/passwd` file.
 
-### step1
+---
+
+### step 1
 
 intercept check stock feature and send to repeater
 

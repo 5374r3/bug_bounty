@@ -2,7 +2,9 @@
 
 ## This lab is vulnerable to [web cache poisoning](https://portswigger.net/web-security/web-cache-poisoning) because cookies aren't included in the cache key. An unsuspecting user regularly visits the site's home page. To solve this lab, poison the cache with a response that executes `alert(1)` in the visitor's browser.
 
-### step1
+---
+
+### step 1
 
 relad page and find page with cookie and fehost
 

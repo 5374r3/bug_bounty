@@ -22,7 +22,9 @@
 </script>
 ```
 
-### step1
+---
+
+### step 1
 
 use this stricpt store view expoit it will change email if you login and wait for 2 minute it will not change email so do within 2 minute
 

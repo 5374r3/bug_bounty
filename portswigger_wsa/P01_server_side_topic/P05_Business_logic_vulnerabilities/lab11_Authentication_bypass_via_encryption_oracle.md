@@ -4,7 +4,9 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`
 
-### step1
+---
+
+### step 1
 
 copy stay logged in string
 
@@ -80,11 +82,15 @@ decode and encode
 
 ![screenshot](./images/lab11_decode_encode_again.png)
 
-### step10
+---
+
+### step 10
 
 ![screenshot](./images/lab11_adminstrator.png)
 
-### step11
+---
+
+### step 11
 
 ntercept on
 click on my account
@@ -94,4 +100,4 @@ click on my account
 3. forword request intercept off
    ![screenshot](./images/lab11_intercept_home_request.png)
 
-![screenshot](./images/portswigger_wsa/P01_server_side_topic/P05_Business_logic_vulnerabilities/images/lab11_admin_panel.png)
+![screenshot](./images/lab11_admin_panel.png)

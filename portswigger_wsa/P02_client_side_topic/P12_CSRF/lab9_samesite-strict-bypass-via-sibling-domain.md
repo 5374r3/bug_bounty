@@ -8,7 +8,9 @@
 
 `https://0a74003f04ae070c81a0d930002f007f.web-security-academy.net/chat`
 
-### step1
+---
+
+### step 1
 
 open lab click on live chat and see history in burpsute
 

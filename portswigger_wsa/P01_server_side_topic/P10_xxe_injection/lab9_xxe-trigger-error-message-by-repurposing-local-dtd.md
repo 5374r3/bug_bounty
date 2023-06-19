@@ -10,7 +10,9 @@
 
 ## Systems using the GNOME desktop environment often have a DTD at `/usr/share/yelp/dtd/docbookx.dtd` containing an entity called `ISOamso.`
 
-### step1
+---
+
+### step 1
 
 ```bash
 <!DOCTYPE foo [ <!ENTITY % local_dtd SYSTEM "file:///usr/local/app/schema.dtd">

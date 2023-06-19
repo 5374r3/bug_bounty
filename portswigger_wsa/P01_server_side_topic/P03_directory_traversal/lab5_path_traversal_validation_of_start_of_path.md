@@ -6,7 +6,9 @@
 
 ## To solve the lab, retrieve the contents of the `/etc/passwd` file.
 
-### step1
+---
+
+### step 1
 
 GET /image?filename=/var/www/images/65.jpg HTTP/1.1
 

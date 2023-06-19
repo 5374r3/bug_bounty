@@ -11,7 +11,9 @@ ping 127.0.0.1 and localhost and 127.1 all are same
 
 ![screenshot](./images/lab3_ping_local_host.png)
 
-### step1
+---
+
+### step 1
 
 go to stock check feature which fetches data from an internal system and intercept
 send to repeater

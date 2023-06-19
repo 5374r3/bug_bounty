@@ -9,7 +9,9 @@ note:
 
 all ### stepdo in repeater with homepage
 
-### step1
+---
+
+### step 1
 
 ![screenshot](./images/lab5_x_original_url.png)
 

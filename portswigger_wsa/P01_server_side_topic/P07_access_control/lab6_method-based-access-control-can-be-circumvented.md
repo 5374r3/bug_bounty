@@ -8,7 +8,9 @@ based partly on the HTTP method of requests. You can familiarize yourself with t
 
 NOTE: this lab is solved using two browser with burpsuite enable or use incongnito with burpsuite
 
-### step1
+---
+
+### step 1
 
 on normal browser login as administrator
 make admin to carlos and intercept while making admin

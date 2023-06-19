@@ -4,7 +4,9 @@
 
 ## To solve the lab, upload an image that displays the contents of the `/etc/hostname` file after processing. Then use the "Submit solution" button to submit the value of the server hostname.
 
-### step1
+---
+
+### step 1
 
 upload svg file
 

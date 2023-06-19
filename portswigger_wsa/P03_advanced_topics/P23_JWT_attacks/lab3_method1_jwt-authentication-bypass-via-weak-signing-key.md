@@ -6,6 +6,7 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`
 
+---
 
 step 1
 
@@ -14,20 +15,17 @@ send request
 
 ![[lab3_my_account.png]]
 
-
-
 ![[lab2_json_web_tokens.png]]
-
 
 step 2
 
 try to access admin send request
-you get unauthorized 
+you get unauthorized
 Admin interface only available if logged in as administrator
 
 ![[lab2_unauthorized_access.png]]
 
-step 3 
+step 3
 
 store token to in a file
 using hashcat decode secret key
@@ -36,10 +34,9 @@ you will get secret key `secret1`
 
 ![[lab3_hash_cat_to_decode_key.png]]
 
-
 step 5
 
-now modify json web token 
+now modify json web token
 payload administrator send request you will get 302 found but location is /login
 it means not able to access admin
 
@@ -50,10 +47,9 @@ decode `secrect1` to base64 `c2VjcmV0MQ==`
 
 ![[lab3_decode_secrect1_to_base64.png]]
 
-
 step 7
 
-go to jwt editor keys 
+go to jwt editor keys
 click on new symmetric key
 click on gernarate
 
@@ -63,24 +59,22 @@ replace k with base64 key `c2VjcmV0MQ==`
 click ok
 ![[lab3_replace_key_with_base64_key.png]]
 
-
 step 8
 
-click  on jsonweb token tab
+click on jsonweb token tab
 sub must be administrator
 click to sign a pop up will come click on don't modify header
 click ok you will notice jwt modifed after this step
 
 ![[lab3_jsonweb_token_sign.png]]
 
-
-
 step 9
-click on raw tab 
+click on raw tab
 send GET request to /admin
 
 ![[lab3_get_request_for_admin.png]]
 
+---
 
 step 10
 
@@ -88,5 +82,4 @@ send GET /admin/delete?username=carlos request to solve lab
 
 ![[lab3_delete_carlos_account.png]]
 
-
-![[images/lab3_solved_lab.png]]
+![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab3_solved_lab.png]]

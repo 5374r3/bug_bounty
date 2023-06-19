@@ -6,7 +6,9 @@
 
 we need incognito mode and normal mode for two different session
 
-### step1
+---
+
+### step 1
 
 login normal window wiener accout
 note down session id or sent to repeater

@@ -21,7 +21,9 @@
 </html>
 ```
 
-### step1 inspect email content
+---
+
+### step 1 inspect email content
 
 copy` /my-account/change-email` from inspect element and cahnge to form
 

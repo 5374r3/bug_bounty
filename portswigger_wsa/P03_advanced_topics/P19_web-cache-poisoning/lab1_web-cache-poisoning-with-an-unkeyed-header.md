@@ -2,7 +2,9 @@
 
 ## This lab is vulnerable to [web cache poisoning](https://portswigger.net/web-security/web-cache-poisoning) because it handles input from an unkeyed header in an unsafe way. An unsuspecting user regularly visits the site's home page. To solve this lab, poison the cache with a response that executes `alert(document.cookie)` in the visitor's browser.
 
-### step1
+---
+
+### step 1
 
 ![screenshot](./images/lab1_send_homepage_to_repeter.png)
 

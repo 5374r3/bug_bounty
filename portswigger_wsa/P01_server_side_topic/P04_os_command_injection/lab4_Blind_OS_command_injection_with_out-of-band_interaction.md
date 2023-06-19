@@ -8,7 +8,9 @@
 
 ## To solve the lab, exploit the blind OS command injection vulnerability to issue a DNS lookup to Burp Collaborator.
 
-### step1
+---
+
+### step 1
 
 // professtional verion use
 burp collector

@@ -4,7 +4,9 @@
 
 ## To solve the lab, poison the home page with a response that executes `alert(1)` in the victim's browser.
 
-### step1
+---
+
+### step 1
 
 send home page into repeter and send request
 the value of age will change at each request and x-cache: hit

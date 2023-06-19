@@ -12,7 +12,9 @@ control + u for url encoded
 http%3a//stock.weliketoshop.net%3a8080/product/stock/check%3fproductId%3d1%26storeId%3d1
 ctrl + shift =u url decoded
 
-### step1
+---
+
+### step 1
 
 stockApi=http://username#@stock.weliketoshop.net
 respoonse => "External stock check host must be stock.weliketoshop.net"

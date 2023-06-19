@@ -6,7 +6,9 @@
 
 ### TE.CL: the front-end server uses the `Transfer-Encoding` header and the back-end server uses the `Content-Length` header.
 
-### step1
+---
+
+### step 1
 
 ![screenshot](./images/images_lab2/lab2_homepage_get_request.png)
 
@@ -62,15 +64,21 @@ x=1
 
 ![screenshot](./images/images_lab2/lab2_r_n_contentent_length.png)
 
-### step10
+---
+
+### step 10
 
 ![screenshot](./images/images_lab2/lab2_content_length_15.png)
 
-### step11
+---
+
+### step 11
 
 ![screenshot](./images/images_lab2/lab2_hexadecimal_vlaue_on_another_request.png)
 
-### step12
+---
+
+### step 12
 
 change LPOST to GPOST
 
@@ -80,6 +88,8 @@ change LPOST to GPOST
 
 we can remove unnecessary lines from repeter
 
-### step12(another way)
+---
+
+### step 12(another way)
 
 ![screenshot](./images/images_lab2/lab2_gpost.png)

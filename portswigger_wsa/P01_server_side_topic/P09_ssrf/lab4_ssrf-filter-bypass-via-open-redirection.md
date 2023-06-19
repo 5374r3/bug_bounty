@@ -6,7 +6,9 @@
 
 ## The stock checker has been restricted to only access the local application, so you will need to find an open redirect affecting the application first.
 
-### step1
+---
+
+### step 1
 
 intercept stock check feature which fetches data from an internal system
 send to repeater

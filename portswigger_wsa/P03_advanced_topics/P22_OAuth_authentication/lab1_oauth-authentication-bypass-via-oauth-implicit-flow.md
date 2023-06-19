@@ -6,6 +6,8 @@
 
 ## You can log in with your own social media account using the following credentials: `wiener:peter`.
 
+---
+
 step 1
 
 observe whole login process

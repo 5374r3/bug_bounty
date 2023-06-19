@@ -6,6 +6,8 @@
 
 ## This lab is based on real-world vulnerabilities discovered by PortSwigger Research. For more details, check out [Browser-Powered Desync Attacks: A New Frontier in HTTP Request Smuggling](https://portswigger.net/research/browser-powered-desync-attacks#cl.0).
 
+---
+
 step 1
 
 open admin panel into browser
@@ -58,14 +60,20 @@ add header userid=test
 
 ![screenshot](./images/images_lab15/lab15_add_header_userid_test_svg.png)
 
+---
+
 step 10
 remove cookie header
 
 ![screenshot](./images/images_lab15/lab15_increse_content_length_userid_test_svg.png)
 
+---
+
 step 11
 
 ![screenshot](./images/images_lab15/lab15_test_payload_get_request_svg.png)
+
+---
 
 step 12
 add
@@ -77,6 +85,8 @@ foo: x
 
 ![screenshot](./images/images_lab15/lab15_get_request_add_foo_header.png)
 
+---
+
 step 13
 
 ```http
@@ -87,6 +97,8 @@ foo: x
 ```
 
 ![screenshot](./images/images_lab15/lab15_add_admin_get_request_svg_payload.png)
+
+---
 
 step 14
 

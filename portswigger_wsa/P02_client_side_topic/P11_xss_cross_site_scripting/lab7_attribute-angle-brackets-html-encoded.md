@@ -16,7 +16,9 @@ not work then use
 
 The above payload creates an `onfocus` event that will execute JavaScript when the element receives the focus, and also adds the `autofocus` attribute to try to trigger the `onfocus` event automatically without any user interaction. Finally, it adds `x="` to gracefully repair the following markup
 
-### step1
+---
+
+### step 1
 
 go to lab serach someting
 eg test

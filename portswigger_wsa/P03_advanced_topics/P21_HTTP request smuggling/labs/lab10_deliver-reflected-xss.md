@@ -6,6 +6,8 @@
 
 ## To solve the lab, smuggle a request to the back-end server that causes the next user's request to receive a response containing an XSS exploit that executes `alert(1)`.
 
+---
+
 step 1
 
 ```

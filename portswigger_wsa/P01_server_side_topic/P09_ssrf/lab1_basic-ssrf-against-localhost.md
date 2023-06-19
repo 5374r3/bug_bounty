@@ -4,7 +4,9 @@
 
 ## To solve the lab, change the stock check URL to access the admin interface at `http://localhost/admin` and delete the user `carlos`.
 
-### step1
+---
+
+### step 1
 
 go to product and check stock intercept them into burpsuite
 
@@ -28,7 +30,9 @@ href="/admin/delete?username=carlos"
 
 now again
 
-### step1 but add ''/admin/delete?username=carlos
+---
+
+### step 1 but add ''/admin/delete?username=carlos
 
 go to product and check stock intercept them into burpsuite
 

@@ -4,7 +4,9 @@
 
 ## To solve the lab, access the internal admin panel located in the `192.168.0.0/24` range, then delete Carlos.
 
-### step1
+---
+
+### step 1
 
 send Homepage into repeter
 
@@ -34,7 +36,10 @@ add host from burp collaborator
 send ### step4 to intruder
 add host `192.168.0.0`
 payload number
-0 to 255 ### step1
+0 to 255 **\_\_\_\_**
+
+### step 1
+
 start attack
 
 ![screenshot](./images/lab5_attacking_result_intruder.png)

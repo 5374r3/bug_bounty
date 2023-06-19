@@ -4,7 +4,9 @@
 
 ## To solve the lab, poison the cache with a response that executes `alert(1)` in the victim's browser.
 
-### step1
+---
+
+### step 1
 
 send geolocate.js to repeter
 

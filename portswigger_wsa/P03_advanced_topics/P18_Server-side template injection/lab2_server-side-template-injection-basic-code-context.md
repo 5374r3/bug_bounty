@@ -18,7 +18,9 @@ os.system(cmd)
 
 above code will delete new_text.txt file from system
 
-### step1
+---
+
+### step 1
 
 login using into account
 observe preferred name functionality

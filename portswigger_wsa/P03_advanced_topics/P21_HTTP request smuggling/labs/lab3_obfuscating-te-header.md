@@ -6,7 +6,9 @@
 
 ### Note: => TE.TE: the front-end and back-end servers both support the `Transfer-Encoding` header, but one of the servers can be induced not to process it by obfuscating the header in some way.
 
-### step1
+---
+
+### step 1
 
 ![screenshot](./images/images_lab3/lab3_get_request_homepage.png)
 

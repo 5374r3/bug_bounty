@@ -4,7 +4,9 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`
 
-### step1
+---
+
+### step 1
 
 enter user name and password and intercept then forword then _drop the role selctor place_
 

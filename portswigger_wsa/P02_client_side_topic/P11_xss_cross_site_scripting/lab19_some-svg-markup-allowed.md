@@ -8,7 +8,9 @@
 
 `<svg><animatetransform onbegin=alert(1) attributeName=transform>`
 
-### step1
+---
+
+### step 1
 
 search test in search bar
 send to intruder and add search in search <§§> with payload copy tag to clipboard

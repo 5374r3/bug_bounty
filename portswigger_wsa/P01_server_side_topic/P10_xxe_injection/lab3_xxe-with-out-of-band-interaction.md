@@ -6,7 +6,9 @@
 
 ## To solve the lab, use an external entity to make the XML parser issue a DNS lookup and HTTP request to Burp Collaborator.
 
-### step1
+---
+
+### step 1
 
 interept check stock feature and send to Reapeter
 

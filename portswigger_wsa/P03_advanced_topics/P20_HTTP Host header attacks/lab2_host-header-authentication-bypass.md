@@ -4,7 +4,9 @@
 
 ## To solve the lab, access the admin panel and delete Carlos's account
 
-### step1
+---
+
+### step 1
 
 send homepage into repeter
 

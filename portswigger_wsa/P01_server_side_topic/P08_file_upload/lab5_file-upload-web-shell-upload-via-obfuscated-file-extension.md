@@ -6,7 +6,9 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`
 
-### step1
+---
+
+### step 1
 
 login using userid and password
 upload a image and then upload exploite php file and intercept to repeater

@@ -4,7 +4,9 @@
 
 ## Solve the lab by finding the password for the user `carlos`, and logging into their account.
 
-### step1
+---
+
+### step 1
 
 ### stepgo to live chat
 

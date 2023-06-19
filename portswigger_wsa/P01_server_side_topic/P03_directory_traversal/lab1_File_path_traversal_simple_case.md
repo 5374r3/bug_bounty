@@ -4,7 +4,9 @@
 
 ## To solve the lab, retrieve the contents of the `/etc/passwd` file.
 
-### step1
+---
+
+### step 1
 
 ## https://0a2d002404d34d49cb7e324b008d003a.web-security-academy.net/image?filename=48.jpg
 

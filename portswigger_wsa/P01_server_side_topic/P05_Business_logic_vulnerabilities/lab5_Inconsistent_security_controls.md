@@ -2,7 +2,9 @@
 
 ## This lab's flawed logic allows arbitrary users to access administrative functionality that should only be available to company employees. To solve the lab, access the admin panel and delete Carlos.
 
-### step1
+---
+
+### step 1
 
 register with attacker email id
 

@@ -4,7 +4,9 @@
 
 ### payload `<a href="javascript:alert(document.domain)">`
 
-### step1
+---
+
+### step 1
 
 ![screenshot](./images/lab8_test_post.png)
 

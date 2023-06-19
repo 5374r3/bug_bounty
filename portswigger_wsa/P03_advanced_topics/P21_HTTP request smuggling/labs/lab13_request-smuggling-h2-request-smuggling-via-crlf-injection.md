@@ -8,6 +8,8 @@
 
 ### The term `CRLF` refers to  `Carriage Return (ASCII 13, \r ) Line Feed (ASCII 10, \n )`
 
+---
+
 step 1
 
 ![screenshot](./images/images_lab13/lab13_search_result_store.png)
@@ -86,6 +88,8 @@ and search must be unique in each case
 accept-language: en-US,en;q=0.9
 cookie: victim-fingerprint=YmIWC1ZZCR96uu0kQRzpkzYfjZqqIOiZ; secret=D9HZfnx9Uirg30BtJgIyBUSnPULD2WWT; session=SG5N4hqr7GwwPgUFDm1qICzHKT8v6efM;
 ```
+
+---
 
 step 10
 intercept login page with wrong userid and password

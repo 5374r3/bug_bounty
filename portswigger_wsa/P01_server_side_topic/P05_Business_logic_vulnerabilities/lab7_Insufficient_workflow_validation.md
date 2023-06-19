@@ -4,7 +4,9 @@
 
 ## You can log in to your own account using the following credentials: `wiener:peter`
 
-### step1
+---
+
+### step 1
 
 login user id and password order any item with below credit balance
 place the order

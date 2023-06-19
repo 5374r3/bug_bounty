@@ -1,4 +1,3 @@
-
 # Forced OAuth profile linking
 
 ## This lab gives you the option to attach a social media profile to your account so that you can log in via [OAuth](https://portswigger.net/web-security/oauth) instead of using the normal username and password. Due to the insecure implementation of the OAuth flow by the client application, an attacker can manipulate this functionality to obtain access to other users' accounts.
@@ -12,30 +11,26 @@
 - Blog website account: `wiener:peter`
 - Social media profile: `peter.wiener:hotdog`
 
-### HINT: 
+### HINT:
+
 ```javascript
 <iframe src="https://YOUR-LAB-ID.web-security-academy.net/oauth-linking?code=STOLEN-CODE"></iframe>
 ```
 
-step 1 
-open incognito mode in browser 
+---
+
+step 1
+open incognito mode in browser
 login account without using social media account
 then click on attach a social profile
 
-
 ![[lab2_oauth_linking_social_profile.png]]
-
 
 ![[lab2_social_sign_in.png]]
 
-
-
 ![[lab2_code_generated_oauth_linking.png]]
 
-
 ![[lab2_social_medial_account_linked.png]]
-
-
 
 step 2
 now login again without using social media normal blog login
@@ -46,7 +41,6 @@ you will get code note down that code
 
 after dropping click on back back to reach to account page then go to exploit
 
-
 step 5
 add payload
 
@@ -56,15 +50,11 @@ add payload
 
 ![[lab2_add_payload_exploit.png]]
 
-
-
 step 5
-reload home page  and logout
-then login with social media 
+reload home page and logout
+then login with social media
 
 you will directly get admin panel just delete carlos account to solve lab
-
-
 
 ![[portswigger_wsa/P03_advanced_topics/P22_OAuth_authentication/images/lab2_admin_panel.png]]
 

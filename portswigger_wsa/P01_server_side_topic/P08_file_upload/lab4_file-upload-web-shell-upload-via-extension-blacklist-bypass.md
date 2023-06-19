@@ -11,7 +11,9 @@ application/x-httpd-php => for .php
 now
 application/x-httpd-php .shell => .shell but php code will run
 
-### step1
+---
+
+### step 1
 
 upload image file and intercept send to repaeter
 

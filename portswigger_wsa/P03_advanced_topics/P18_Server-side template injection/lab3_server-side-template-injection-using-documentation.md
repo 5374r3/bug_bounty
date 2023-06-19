@@ -6,7 +6,9 @@
 
 `content-manager:C0nt3ntM4n4g3r`
 
-### step1
+---
+
+### step 1
 
 ![screenshot](./images/lab3_template_expression.png)
 

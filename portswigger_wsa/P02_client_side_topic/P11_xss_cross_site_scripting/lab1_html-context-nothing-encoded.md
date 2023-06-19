@@ -4,7 +4,9 @@
 
 ## To solve the lab, perform a cross-site scripting attack that calls the `alert` function.
 
-### step1
+---
+
+### step 1
 
 `https://0a7b000c0436edbdc665d52c000100ef.web-security-academy.net/?search=market`
 

@@ -4,7 +4,9 @@
 
 ## To solve the lab, use this functionality to cause an HTTP request to the public Burp Collaborator server.
 
-### step1
+---
+
+### step 1
 
 ![screenshot](./images/lab5_burp_collaborator.png)
 

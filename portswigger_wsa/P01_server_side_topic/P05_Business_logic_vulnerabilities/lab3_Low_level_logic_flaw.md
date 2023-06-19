@@ -13,7 +13,7 @@ then go to payload option
 
 payload option
 
-![screenshot](./images/portswigger_wsa/P01_server_side_topic/P05_Business_logic_vulnerabilities/images/lab3_payload.png)
+![screenshot](./images/lab3_payload.png)
 
 362 or 323 depends on which value the negative number so less
 now add different item to make it positive value

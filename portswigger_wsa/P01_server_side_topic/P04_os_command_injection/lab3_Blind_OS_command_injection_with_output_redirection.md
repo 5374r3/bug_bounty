@@ -10,7 +10,9 @@
 
 ## To solve the lab, execute the `whoami` command and retrieve the output.
 
-### step1
+---
+
+### step 1
 
 whoami > /var/www/images/output.txt
 

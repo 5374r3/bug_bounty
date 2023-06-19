@@ -42,7 +42,9 @@
 %3c/script>
 ```
 
-### step1
+---
+
+### step 1
 
 login in and go account section
 see history in burpsuite select account-details and sent to repeater

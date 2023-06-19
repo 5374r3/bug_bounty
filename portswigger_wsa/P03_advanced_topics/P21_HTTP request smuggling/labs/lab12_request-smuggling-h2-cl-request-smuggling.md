@@ -4,6 +4,8 @@
 
 ## To solve the lab, perform a request smuggling attack that causes the victim's browser to load and execute a malicious JavaScript file from the exploit server, calling `alert(document.cookie)`. The victim user accesses the home page every 10 seconds.
 
+---
+
 step 1
 intercept homepage to repeater change get to post request
 

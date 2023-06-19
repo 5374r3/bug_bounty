@@ -4,7 +4,9 @@
 
 ## To solve the lab, poison the cache so the home page executes `alert(document.cookie)` in the victim's browser
 
-### step1
+---
+
+### step 1
 
 send homepage into repeter
 
