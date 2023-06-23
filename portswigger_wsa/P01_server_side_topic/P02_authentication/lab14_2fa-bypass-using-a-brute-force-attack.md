@@ -1,4 +1,12 @@
-## 2FA bypass using a brute-force attack
+
+# 2FA bypass using a brute-force attack
+
+## This lab's two-factor authentication is vulnerable to brute-forcing. You have already obtained a valid username and password, but do not have access to the user's 2FA verification code. To solve the lab, brute-force the 2FA code and access Carlos's account page.
+
+Victim's credentials: `carlos:montoya`
+
+____
+
 
 1.  With Burp running, log in as `carlos` and investigate the 2FA verification process. Notice that if you enter the wrong code twice, you will be logged out again. You need to use Burp's session handling features to log back in automatically before sending each request.
 2.  In Burp, go to **Project options > Sessions**. In the **Session Handling Rules** panel, click **Add**. The **Session handling rule editor** dialog opens.

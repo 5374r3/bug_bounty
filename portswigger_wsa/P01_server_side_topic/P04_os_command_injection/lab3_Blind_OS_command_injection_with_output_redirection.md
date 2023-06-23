@@ -6,9 +6,9 @@
 
 ## `/var/www/images/`
 
-## The application serves the images for the product catalog from this location. You can redirect the output from the injected command to a file in this folder, and then _use the image loading URL to retrieve the contents of the file_.
+The application serves the images for the product catalog from this location. You can redirect the output from the injected command to a file in this folder, and then _use the image loading URL to retrieve the contents of the file_.
 
-## To solve the lab, execute the `whoami` command and retrieve the output.
+To solve the lab, execute the `whoami` command and retrieve the output.
 
 ---
 

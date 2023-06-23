@@ -44,6 +44,7 @@ step 4
 
 add `1 UNION SELECT NULL` in store section then send request
 you will see changes in units
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <stockCheck>

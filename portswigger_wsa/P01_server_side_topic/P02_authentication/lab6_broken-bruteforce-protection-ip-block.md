@@ -1,4 +1,13 @@
 # Lab: Broken brute-force protection, IP block
+
+## This lab is vulnerable due to a logic flaw in its password brute-force protection. To solve the lab, brute-force the victim's password, then log in and access their account page.
+
+- Your credentials: `wiener:peter`
+- Victim's username: `carlos`
+- [Candidate passwords](https://portswigger.net/web-security/authentication/auth-lab-passwords)
+
+___
+
 username=*carlos*&password=*superman*
 
 1.  With Burp running, investigate the login page. Observe that your IP is temporarily blocked if you submit 3 incorrect logins in a row. However, notice that you can reset the counter for the number of failed login attempts by logging in to your own account before this limit is reached.

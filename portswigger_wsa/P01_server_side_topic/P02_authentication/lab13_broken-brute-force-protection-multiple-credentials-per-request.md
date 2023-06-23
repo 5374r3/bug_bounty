@@ -1,5 +1,13 @@
 #  Broken brute-force protection, multiple credentials per request
 
+## This lab is vulnerable due to a logic flaw in its brute-force protection. To solve the lab, brute-force Carlos's password, then access his account page.
+
+- Victim's username: `carlos`
+- [Candidate passwords](https://portswigger.net/web-security/authentication/auth-lab-passwords)
+
+___
+
+
 1.  With Burp running, investigate the login page. Notice that the `POST /login` request submits the login credentials in `JSON` format. Send this request to Burp Repeater.
 2.  In Burp Repeater, replace the single string value of the password with an array of strings containing all of the candidate passwords. For example:
     

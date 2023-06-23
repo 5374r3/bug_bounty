@@ -8,8 +8,8 @@ The database contains a different table called `users`, with columns called `u
 To solve the lab, perform a [SQL injection UNION](https://portswigger.net/web-security/sql-injection/union-attacks) attack that retrieves all usernames and passwords, and use the information to log in as the `administrator` user.
 
 ___
-**NOTE: => Retrieving multiple values within a single column
-You can easily retrieve multiple values together within this single column by concatenating the values together, ideally including a suitable separator to let you distinguish the combined values. For example, on Oracle you could submit the input:**
+**NOTE:** => Retrieving multiple values within a single column
+You can easily retrieve multiple values together within this single column by concatenating the values together, ideally including a suitable separator to let you distinguish the combined values. For example, on Oracle you could submit the input:
 `' UNION SELECT username || '~' || password FROM users--`
 
 step 1

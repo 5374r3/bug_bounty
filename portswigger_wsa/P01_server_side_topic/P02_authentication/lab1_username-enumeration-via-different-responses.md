@@ -1,5 +1,15 @@
 # Lab: Username enumeration via different responses
 
+## This lab is vulnerable to username enumeration and password brute-force attacks. It has an account with a predictable username and password, which can be found in the following wordlists:
+
+- [Candidate usernames](https://portswigger.net/web-security/authentication/auth-lab-usernames)
+- [Candidate passwords](https://portswigger.net/web-security/authentication/auth-lab-passwords)
+
+To solve the lab, enumerate a valid username, brute-force this user's password, then access their account page
+
+___
+
+
 1.  With Burp running, investigate the login page and submit an invalid username and password.
 2.  In Burp, go to **Proxy > HTTP history** and find the `POST /login` request. Send this to Burp Intruder.
 3.  In Burp Intruder, go to the **Positions** tab. Make sure that the **Sniper** attack type is selected.
@@ -15,4 +25,31 @@
 11.  Log in using the username and password that you identified and access the user account page to solve the lab.
 ---
 
+step 1
 
+![[lab1_0.png]]
+
+
+step 2
+
+![[lab1_1.png]]
+
+
+step 3
+
+![[lab1_2.png]]
+
+![[lab1_3.png]]
+
+step 4
+
+![[lab1_4.png]]
+
+
+![[lab1_5.png]]
+
+step 5
+
+username=`asterix` password=`123321`
+
+![[lab1_6.png]]
