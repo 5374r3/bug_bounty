@@ -21,13 +21,13 @@ you will see new nothing changes
 it means You've not found a prototype pollution source
 
 
-![[lab3_no_property_added.png]]
+![](images/lab3_no_property_added.jpg)
 
 step 2
 
 go to source and look at the js file 
 
-![[lab3_search_logger_js_file.png]]
+![](images/lab3_search_logger_js_file.jpg)
 
 step 3
 
@@ -36,21 +36,21 @@ go to console type `Object.prototype`
 you will see new property added `evilProperty: 'payload'`
 it means You've successfully found a prototype pollution source.
 
-![[lab3_properted_added_found_prototype_pollution.png]]
+![](images/lab3_properted_added_found_prototype_pollution.jpg)
 
 step 4
 
 `?__pro__proto__to__[transport_url]=payload`
 you will notice in elements tab `<script>` element has been rendered on the page
 
-![[lab3_script_tag_render.png]]
+![](images/lab3_script_tag_render.jpg)
 
 step 5
 
 add payload `?__pro__proto__to__[transport_url]=data:,alert(1);//` into url 
 you will get alert pop up and lab will solved
 
-![[lab3_alert_pop_up.png]]
+![](images/lab3_alert_pop_up.jpg)
 
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab3_solved_lab.png]]
+![](images/lab3_solved_lab.jpg)

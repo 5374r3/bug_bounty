@@ -8,7 +8,7 @@
 
 ## `<a href="">Click me</a>`
 
-![screenshot](./images/lab25.png)
+![screenshot](images/lab25.jpg)
 
 `<svg><a><animate attributeName=href values=javascript:alert(1) /><text x=20 y=20>Click me</text></a>`
 url encoded

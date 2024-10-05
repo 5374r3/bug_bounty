@@ -14,27 +14,27 @@ login into account
 send my account to repeater
 you will get 200 response
 
-![[lab6_my_account.png]]
+![](images/lab6_my_account.jpg)
 
 step 2
 
 change my account to /admin and send request
 you will get 401 unauthorized
 
-![[lab6_unauthorized_401_admin.png]]
+![](images/lab6_unauthorized_401_admin.jpg)
 
 this is json web token tab where sub is modified with administrator
 
-![[lab6_json_web_token.png]]
+![](images/lab6_json_web_token.jpg)
 
 step 3
 click on jwt editor keys
 click on new symmetric key
 add k as `AA==` is null byte encoder
 
-![[lab6_jwt_editor_symmetric_key.png]]
+![](images/lab6_jwt_editor_symmetric_key.jpg)
 
-![[lab6_null_byte_encoder.png]]
+![](images/lab6_null_byte_encoder.jpg)
 
 step 4
 
@@ -44,18 +44,18 @@ click on sign in don't modify header click ok
 send request 200 ok
 note you can test header portion with ` "kid": "../../dev/null"` or ` "kid": "../../../../dev/null"` untill you get 200 response
 
-![[lab6_signing_key_with_200_ok.png]]
+![](images/lab6_signing_key_with_200_ok.jpg)
 
 once you will get 200 ok
 at the bottom you will get admin panel
 Note admin panel only show when GET /admin request
 
-![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab6_admin_panel.png]]
+![](images/lab6_admin_panel.jpg)
 
 step 5
 
 send GET /admin/delete?username=carlos request to solve lab
 
-![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab6_delete_carlos_account.png]]
+![](images/lab6_delete_carlos_account.jpg)
 
-![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab6_solved_lab.png]]
+![](images/lab6_solved_lab.jpg)

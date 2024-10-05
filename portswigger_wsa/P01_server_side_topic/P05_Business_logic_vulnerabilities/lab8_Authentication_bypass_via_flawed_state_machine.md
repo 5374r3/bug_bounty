@@ -10,7 +10,7 @@
 
 enter user name and password and intercept then forword then _drop the role selctor place_
 
-![screenshot](./images/lab7_drop_menu_for_role_selector.png)
+![screenshot](images/lab7_drop_menu_for_role_selector.jpg)
 
 ### step2
 

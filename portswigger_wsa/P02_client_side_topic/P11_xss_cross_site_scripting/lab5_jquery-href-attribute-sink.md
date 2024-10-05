@@ -16,9 +16,9 @@ go to feedback form
 
 https://0aa5003e040f5dabc06127b800800039.web-security-academy.net/feedback?returnPath=/feedback
 and inspect feedback form
-![screenshot](./images/lab5_feedback_form.png)
+![screenshot](images/lab5_feedback_form.jpg)
 
-![screenshot](./images/lab5_feedback_form_ui.png)
+![screenshot](images/lab5_feedback_form_ui.jpg)
 
 change url
 
@@ -33,4 +33,4 @@ now use payload
 
 https://0aa5003e040f5dabc06127b800800039.web-security-academy.net/feedback?returnPath=javascript:alert(document.domain)
 
-![screenshot](./images/lab5_form_page_alert_popup.png)
+![screenshot](images/lab5_form_page_alert_popup.jpg)

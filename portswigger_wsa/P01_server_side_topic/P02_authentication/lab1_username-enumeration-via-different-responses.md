@@ -27,29 +27,29 @@ ___
 
 step 1
 
-![[lab1_0.png]]
+![](images/lab1_0.jpg)
 
 
 step 2
 
-![[lab1_1.png]]
+![](images/lab1_1.jpg)
 
 
 step 3
 
-![[lab1_2.png]]
+![](images/lab1_2.jpg)
 
-![[lab1_3.png]]
+![](images/lab1_3.jpg)
 
 step 4
 
-![[lab1_4.png]]
+![](images/lab1_4.jpg)
 
 
-![[lab1_5.png]]
+![](images/lab1_5.jpg)
 
 step 5
 
 username=`asterix` password=`123321`
 
-![[lab1_6.png]]
+![](images/lab1_6.jpg)

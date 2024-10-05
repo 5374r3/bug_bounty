@@ -8,25 +8,25 @@
 
 ### step 1
 
-![screenshot](./images/lab6_homepage_repeter.png)
+![screenshot](images/lab6_homepage_repeter.jpg)
 
 ### step2
 
-![screenshot](./images/lab6_admin_page_request.png)
+![screenshot](images/lab6_admin_page_request.jpg)
 
 ### step3
 
-![screenshot](./images/lab6_get_request_url_with_admin.png)
+![screenshot](images/lab6_get_request_url_with_admin.jpg)
 
 ### step4
 
-![screenshot](./images/lab6_add_csrf_token_and_username.png)
+![screenshot](images/lab6_add_csrf_token_and_username.jpg)
 
 ### step5
 
 change request method from get to post
 
-![screenshot](./images/lab6_change_request_method_get_to_post.png)
+![screenshot](images/lab6_change_request_method_get_to_post.jpg)
 
 ### step6
 
@@ -34,4 +34,4 @@ remove url
 simply test /admin/delete with post request
 lab will solve
 
-![screenshot](./images/lab6_remove_url_from_post_request.png)
+![screenshot](images/lab6_remove_url_from_post_request.jpg)

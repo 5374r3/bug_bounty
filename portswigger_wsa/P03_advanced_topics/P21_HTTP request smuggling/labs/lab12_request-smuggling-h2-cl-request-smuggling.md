@@ -18,7 +18,7 @@ Content-Length: 0
 userid=test
 ```
 
-![screenshot](./images/images_lab12/lab12_post_request.png)
+![screenshot](images/images_lab12/lab12_post_request.jpg)
 
 step 2
 test payload
@@ -39,12 +39,12 @@ Content-Length: 12
 userid=test
 ```
 
-![screenshot](./images/images_lab12/lab12_test_resource.png)
+![screenshot](images/images_lab12/lab12_test_resource.jpg)
 
 step 3
 add payload into resource
 
-![screenshot](./images/images_lab12/lab12_test_expolit_page.png)
+![screenshot](images/images_lab12/lab12_test_expolit_page.jpg)
 
 step 4
 test payload from resource
@@ -56,7 +56,7 @@ Content-Length: 2
 
 ```
 
-![screenshot](./images/images_lab12/lab12_test_alert_payload.png)
+![screenshot](images/images_lab12/lab12_test_alert_payload.jpg)
 
 step 5
 final payload
@@ -77,6 +77,6 @@ Content-Length: 12
 userid=test
 ```
 
-![screenshot](./images/images_lab12/lab12_test_final_payload.png)
+![screenshot](images/images_lab12/lab12_test_final_payload.jpg)
 
-![screenshot](./images/images_lab12/lab12_solved_lab.png)
+![screenshot](images/images_lab12/lab12_solved_lab.jpg)

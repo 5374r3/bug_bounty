@@ -14,26 +14,26 @@ login in using user and password  `wiener:peter`
 
 https://0a1f00cd03ac9910c1294f51007200ae.web-security-academy.net/my-account?id=wiener
 
-![screenshot](./images/lab3_admin_false.png)
+![screenshot](images/lab3_admin_false.jpg)
 
 intercept my account
 
-![screenshot](./images/lab3_my_account_intercept.png)
+![screenshot](images/lab3_my_account_intercept.jpg)
 
 change Admin=true
 
 send forword
 
-![screenshot](./images/lab3_admin_page_intercept.png)
+![screenshot](images/lab3_admin_page_intercept.jpg)
 
 Admin=true
 and forword
 
-![screenshot](./images/lab3_delete_carlos.png)
+![screenshot](images/lab3_delete_carlos.jpg)
 
 intercept on carlos delete selection
 
-![screenshot](./images/lab3_delete_carlos_intercept.png)
+![screenshot](images/lab3_delete_carlos_intercept.jpg)
 
 Admin=true
 forword request

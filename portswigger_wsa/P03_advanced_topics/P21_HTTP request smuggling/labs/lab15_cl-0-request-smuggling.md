@@ -12,18 +12,18 @@ step 1
 
 open admin panel into browser
 
-![screenshot](./images/images_lab15/lab15_access_admin_page.png)
+![screenshot](images/images_lab15/lab15_access_admin_page.jpg)
 
 step 2
 change HTTP/2 to HTTP/1.1
 add header body userid=test
 
-![screenshot](./images/images_lab15/lab15_remove_header_from_svg_post_request.png)
+![screenshot](images/images_lab15/lab15_remove_header_from_svg_post_request.jpg)
 
 step 3
 add transfer-encoding: chunked
 
-![screenshot](./images/images_lab15/lab15_add_transfer_encoding.png)
+![screenshot](images/images_lab15/lab15_add_transfer_encoding.jpg)
 
 step 4
 
@@ -32,46 +32,46 @@ content-Length
 transfer-encoding
 cookie-session
 
-![screenshot](./images/images_lab15/lab15_remove_some_header.png)
+![screenshot](images/images_lab15/lab15_remove_some_header.jpg)
 
 step 5
 check resource folder and check status code for svg
 
-![screenshot](./images/images_lab15/lab15_find_status_code_from_resource_file.png)
+![screenshot](images/images_lab15/lab15_find_status_code_from_resource_file.jpg)
 
 step 6
 send blog.svg to repeater
 
-![screenshot](./images/images_lab15/lab15_test_svg_into_repeter_get_request.png)
+![screenshot](images/images_lab15/lab15_test_svg_into_repeter_get_request.jpg)
 
 step 7
 change get request to post request
 
-![screenshot](./images/images_lab15/lab15_test_post_request_svg_repeater.png)
+![screenshot](images/images_lab15/lab15_test_post_request_svg_repeater.jpg)
 
 step 8
 
 remove extra header
-![screenshot](./images/images_lab15/lab15_remove_some_header_from_svg.png)
+![screenshot](images/images_lab15/lab15_remove_some_header_from_svg.jpg)
 
 step 9
 
 add header userid=test
 
-![screenshot](./images/images_lab15/lab15_add_header_userid_test_svg.png)
+![screenshot](images/images_lab15/lab15_add_header_userid_test_svg.jpg)
 
 ---
 
 step 10
 remove cookie header
 
-![screenshot](./images/images_lab15/lab15_increse_content_length_userid_test_svg.png)
+![screenshot](images/images_lab15/lab15_increse_content_length_userid_test_svg.jpg)
 
 ---
 
 step 11
 
-![screenshot](./images/images_lab15/lab15_test_payload_get_request_svg.png)
+![screenshot](images/images_lab15/lab15_test_payload_get_request_svg.jpg)
 
 ---
 
@@ -83,7 +83,7 @@ GET / HTTP/1.1
 foo: x
 ```
 
-![screenshot](./images/images_lab15/lab15_get_request_add_foo_header.png)
+![screenshot](images/images_lab15/lab15_get_request_add_foo_header.jpg)
 
 ---
 
@@ -96,7 +96,7 @@ GET /admin HTTP/1.1
 foo: x
 ```
 
-![screenshot](./images/images_lab15/lab15_add_admin_get_request_svg_payload.png)
+![screenshot](images/images_lab15/lab15_add_admin_get_request_svg_payload.jpg)
 
 ---
 
@@ -109,6 +109,6 @@ GET /admin/delete?username=carlos HTTP/1.1
 foo: x
 ```
 
-![screenshot](./images/images_lab15/lab15_delete_carlos_account.png)
+![screenshot](images/images_lab15/lab15_delete_carlos_account.jpg)
 
-![screenshot](./images/images_lab15/lab15_lab_solved.png)
+![screenshot](images/images_lab15/lab15_lab_solved.jpg)

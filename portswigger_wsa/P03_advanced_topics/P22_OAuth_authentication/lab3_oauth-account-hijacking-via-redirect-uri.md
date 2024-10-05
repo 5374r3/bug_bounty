@@ -18,9 +18,9 @@
 
 step 1
 it will use as payload Hint and marked are same
-![[lab3_http_histroy_auth.png]]
+![](images/lab3_http_histroy_auth.jpg)
 
-![[lab3_code_generated.png]]
+![](images/lab3_code_generated.jpg)
 
 step 2
 send **\_\_\_\_**
@@ -29,7 +29,7 @@ step 1 to repeater
 302 found
 and ready for payload
 
-![[lab3_send_auth_client_id_to_repeater.png]]
+![](images/lab3_send_auth_client_id_to_repeater.jpg)
 
 step 3
 add payload
@@ -39,26 +39,26 @@ add payload
 ```
 
 store and view exploit
-![[lab3_add_payload_exploit.png]]
+![](images/lab3_add_payload_exploit.jpg)
 
 click exploit deliver to victim
 and click on access log
 
 step 5
 go to access log
-![[lab3_access_log_code.png]]
+![](images/lab3_access_log_code.jpg)
 `code=qWnjr56jtzVQEsOUA022bkr3ZijMy049QoEC3ksEqKY`
 
 step 6
 copy code replace and forward request
 
-![[lab3_intercept_login_replace_code.png]]
+![](images/lab3_intercept_login_replace_code.jpg)
 
 step 7
 you will get admin panel
 
-![[lab3_admin_panel.png]]
+![](images/lab3_admin_panel.jpg)
 
 delete carlos account solved lab
 
-![[portswigger_wsa/P03_advanced_topics/P22_OAuth_authentication/images/lab3_solved_lab.png]]
+![](images/lab3_solved_lab.jpg)

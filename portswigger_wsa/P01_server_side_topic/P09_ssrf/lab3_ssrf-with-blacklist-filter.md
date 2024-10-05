@@ -9,7 +9,7 @@
 Note when you
 ping 127.0.0.1 and localhost and 127.1 all are same
 
-![screenshot](./images/lab3_ping_local_host.png)
+![screenshot](images/lab3_ping_local_host.jpg)
 
 ---
 

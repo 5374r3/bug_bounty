@@ -22,7 +22,7 @@ Transfer-Encoding: chunked
 userid=test
 ```
 
-![screenshot](./images/images_lab8/lab8_test_first_payload.png)
+![screenshot](images/images_lab8/lab8_test_first_payload.jpg)
 
 ### step2
 
@@ -37,7 +37,7 @@ userid=test
 
 ```
 
-![screenshot](./images/images_lab8/lab8_2nd_payload.png)
+![screenshot](images/images_lab8/lab8_2nd_payload.jpg)
 
 ### step3
 
@@ -52,7 +52,7 @@ userid=test
 
 ```
 
-![screenshot](./images/images_lab8/lab8_2nd_payload_with_content_length_less.png)
+![screenshot](images/images_lab8/lab8_2nd_payload_with_content_length_less.jpg)
 
 ### step4
 
@@ -69,16 +69,16 @@ Host: 127.0.0.1
 userid=test
 ```
 
-![screenshot](./images/images_lab8/lab8_unauthorized.png)
+![screenshot](images/images_lab8/lab8_unauthorized.jpg)
 
-![screenshot](./images/images_lab8/lab8_content_length_add_one.png)
+![screenshot](images/images_lab8/lab8_content_length_add_one.jpg)
 
 ### step5
 
 `Content-Length: 11
 `search=test`
 
-![screenshot](./images/images_lab8/lab8_search_test.png)
+![screenshot](images/images_lab8/lab8_search_test.jpg)
 
 ### step6
 
@@ -96,7 +96,7 @@ Connection: close
 search=test
 ```
 
-![screenshot](./images/images_lab8/lab8_post_request_search.png)
+![screenshot](images/images_lab8/lab8_post_request_search.jpg)
 
 ### step7
 
@@ -116,7 +116,7 @@ search=test
 
 ```
 
-![screenshot](./images/images_lab8/lab8_administrator.png)
+![screenshot](images/images_lab8/lab8_administrator.jpg)
 
 ### step8
 
@@ -136,8 +136,8 @@ search=test
 
 ```
 
-![screenshot](./images/images_lab8/lab8_delete_carlos_account.png)
+![screenshot](images/images_lab8/lab8_delete_carlos_account.jpg)
 
 ### step9
 
-![screenshot](./images/images_lab8/lab8_lab_solved.png)
+![screenshot](images/images_lab8/lab8_lab_solved.jpg)

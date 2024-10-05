@@ -10,7 +10,7 @@
 
 search something
 
-![screenshot](./images/lab21.png)
+![screenshot](images/lab21.jpg)
 
 ### step2
 

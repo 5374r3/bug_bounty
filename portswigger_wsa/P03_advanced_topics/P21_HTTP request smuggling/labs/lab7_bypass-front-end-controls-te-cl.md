@@ -36,7 +36,7 @@ x=1
 0
 ```
 
-![screenshot](./images/images_lab7/lab7_blog_post_id_5.png)
+![screenshot](images/images_lab7/lab7_blog_post_id_5.jpg)
 
 ### step3
 
@@ -52,7 +52,7 @@ x=1
 0
 ```
 
-![screenshot](./images/images_lab7/lab7_try_to_access_admin_interface.png)
+![screenshot](images/images_lab7/lab7_try_to_access_admin_interface.jpg)
 
 ### step5
 
@@ -71,7 +71,7 @@ x=1
 
 ```
 
-![screenshot](./images/images_lab7/lab7_admin-panel.png)
+![screenshot](images/images_lab7/lab7_admin-panel.jpg)
 
 ### step6
 
@@ -90,6 +90,6 @@ x=1
 
 ```
 
-![screenshot](./images/images_lab7/lab7_delete_carlos_account.png)
+![screenshot](images/images_lab7/lab7_delete_carlos_account.jpg)
 
-![screenshot](./images/images_lab7/lab7_lab_solved.png)
+![screenshot](images/images_lab7/lab7_lab_solved.jpg)

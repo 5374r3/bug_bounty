@@ -17,17 +17,17 @@ it will give error
 Error: file is not a valid image Sorry, there was an error uploading your file.
 now using exiftool to convert image to php
 
-![screenshot](./images/lab6_exiftool_image_details.png)
+![screenshot](images/lab6_exiftool_image_details.jpg)
 
-![screenshot](./images/lab6_exiftools_add_comment.png)
+![screenshot](images/lab6_exiftools_add_comment.jpg)
 
-![screenshot](./images/lab6_add_php_code_to_images.png)
+![screenshot](images/lab6_add_php_code_to_images.jpg)
 
 convert intigriti.jpeg to webshell.php
 
 ## exiftool intigriti.jpeg -o webshell.php
 
-![screenshot](./images/lab6_webshell_php.png)
+![screenshot](images/lab6_webshell_php.jpg)
 
 ### step2
 
@@ -39,6 +39,6 @@ The file avatars/webshell.php has been uploaded.
 
 GET /files/avatars/webshell.php
 
-![screenshot](./images/lab6_secret_code.png)
+![screenshot](images/lab6_secret_code.jpg)
 
 submit the secret code and lab solved

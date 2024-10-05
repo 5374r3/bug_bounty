@@ -20,7 +20,7 @@ GET /post?postId=5 HTTP/1.1
 foo: x
 ```
 
-![screenshot](./images/images_lab5/lab6_homepage_into_repeter_test_payload.png)
+![screenshot](./images/images_lab5/lab6_homepage_into_repeter_test_payload.jpg)
 
 ### step2
 
@@ -34,7 +34,7 @@ GET /admin HTTP/1.1`
 foo: x
 ```
 
-![screenshot](./images/images_lab5/lab6_access_admin_page.png)
+![screenshot](./images/images_lab5/lab6_access_admin_page.jpg)
 
 ### step3
 
@@ -54,7 +54,7 @@ x=1
 0
 ```
 
-![screenshot](./images/images_lab5/lab6_testing_admin_payload.png)
+![screenshot](./images/images_lab5/lab6_testing_admin_payload.jpg)
 
 ### step4
 
@@ -70,16 +70,16 @@ x=1
 0
 ```
 
-![screenshot](./images/images_lab5/lab6_testing_payload_to_delete_carlos_account.png)
+![screenshot](./images/images_lab5/lab6_testing_payload_to_delete_carlos_account.jpg)
 
 ### step5
 
 send request
 
-![screenshot](./images/images_lab5/lab6_delete_carlos_account.png)
+![screenshot](./images/images_lab5/lab6_delete_carlos_account.jpg)
 
 ### step6
 
 lab solved
 
-![screenshot](./images/images_lab5/lab6_test_to_access_admin.png)
+![screenshot](./images/images_lab5/lab6_test_to_access_admin.jpg)

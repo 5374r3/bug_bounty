@@ -26,9 +26,9 @@ step 2
 click submit feedback form
 fill  details and intercept the request then  replace email with payload
 
-![[lab5_0.png]]
+![](images/lab5_0.jpg)
 
-![[lab5_1.png]]
+![](images/lab5_1.jpg)
 
 
 step 3
@@ -36,4 +36,4 @@ step 3
 To complete the lab, submit the name of the current user.
 `peter-RqLsYQ`
 
-![[lab5_2.png]]
+![](images/lab5_2.jpg)

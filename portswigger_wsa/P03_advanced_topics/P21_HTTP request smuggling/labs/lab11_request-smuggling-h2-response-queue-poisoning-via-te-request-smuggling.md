@@ -20,7 +20,7 @@ userid=test
 
 ```
 
-![screenshot](./images/images_lab11/lab11_not_found_404.png)
+![screenshot](images/images_lab11/lab11_not_found_404.jpg)
 
 step 2
 
@@ -37,7 +37,7 @@ userid=test
 
 ```
 
-![screenshot](./images/images_lab11/lab11_post_id_5.png)
+![screenshot](images/images_lab11/lab11_post_id_5.jpg)
 
 step 3
 
@@ -55,7 +55,7 @@ userid=test
 
 HTTP/2 401 Unauthorized
 
-![screenshot](./images/images_lab11/lab11_http_2_http_1_1.png)
+![screenshot](images/images_lab11/lab11_http_2_http_1_1.jpg)
 
 step 4
 
@@ -70,7 +70,7 @@ GET /admin HTTP/1.1
 Host: 0a17000003a74f25815f2af1001a00b0.web-security-academy.net
 ```
 
-![screenshot](./images/images_lab11/lab11_found_302.png)
+![screenshot](images/images_lab11/lab11_found_302.jpg)
 
 note down details
 
@@ -85,10 +85,10 @@ Content-Length:
 step 5
 `session=stQrgL4chP9frilHAvELZpfBT85oG1fW`
 
-![screenshot](./images/images_lab11/lab11_admin_panel.png)
+![screenshot](images/images_lab11/lab11_admin_panel.jpg)
 
 step 6
 
 click on admin panel and delete carlos account
 
-![screenshot](./images/images_lab11/lab11_lab_solve_delete_carlos.png)
+![screenshot](images/images_lab11/lab11_lab_solve_delete_carlos.jpg)

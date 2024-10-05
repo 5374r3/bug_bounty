@@ -15,14 +15,14 @@ and enter password
 
 go to burpsuite
 
-![screenshot](./images/lab1_post_request.png)
+![screenshot](images/lab1_post_request.jpg)
 
 ### step3
 
 send to repeter
 change _host_ to exploite url and change _username_ and send
 
-![screenshot](./images/lab1_repeter_lab.png)
+![screenshot](images/lab1_repeter_lab.jpg)
 
 ### step4
 

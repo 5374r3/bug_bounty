@@ -10,12 +10,12 @@ You can log in to your own account using the following credentials:
 
 ### Note: `${{<%[%'"}}%\` use for fuzzing
 
-![screenshot](./images/lab5_template_testing_with_different_payload.png)
+![screenshot](images/lab5_template_testing_with_different_payload.jpg)
 
-![screenshot](./images/lab5_template_dejango.png)
+![screenshot](images/lab5_template_dejango.jpg)
 
-![screenshot](./images/lab5_debug_to_get_all_method_available.png)
+![screenshot](images/lab5_debug_to_get_all_method_available.jpg)
 
-![screenshot](./images/lab5_secret_key.png)
+![screenshot](images/lab5_secret_key.jpg)
 
 submit key lab solved

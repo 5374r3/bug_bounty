@@ -10,14 +10,14 @@
 
 send homepage to the repeter
 
-![screenshot](./images/lab6_homepage_into_repeter.png)
+![screenshot](images/lab6_homepage_into_repeter.jpg)
 
 ### step2
 
 add cache buster
 /?test=124 (it can be anything)
 
-![screenshot](./images/lab6_added_cache_buster_to_homepage.png)
+![screenshot](images/lab6_added_cache_buster_to_homepage.jpg)
 
 ### step3
 
@@ -25,32 +25,32 @@ Note: when age: > 0 and x-cache:hit
 send param miner (header => guess GET parameter)
 and again send request into repeter
 
-![screenshot](./images/lab6_param_miner_output_homepage.png)
+![screenshot](images/lab6_param_miner_output_homepage.jpg)
 
 ### step4
 
 added _/?test=124&utm_content=zwrtxqvaltp0fwtqx8&xomohdiqmx6=1&vrnn08k41=1_
 
-![screenshot](./images/lab6_add_utm_content_into_repeter.png)
+![screenshot](images/lab6_add_utm_content_into_repeter.jpg)
 
 ### step5
 
 testing hello
 
-![screenshot](./images/lab6_testing_hello_with_cache_buster.png)
+![screenshot](images/lab6_testing_hello_with_cache_buster.jpg)
 
 ### step6
 
 open current session into browser
 
-![screenshot](./images/lab6_home_page_with_hello.png)
+![screenshot](images/lab6_home_page_with_hello.jpg)
 
 ### step7
 
 final payload
 _/?utm_content='/><script>alert(1)</script>_
 
-![screenshot](./images/lab6_final_payload_utm_alert.png)
+![screenshot](images/lab6_final_payload_utm_alert.jpg)
 
 ### step8
 
@@ -60,4 +60,4 @@ still to confirm pop up
 request current session into browser
 reload page many times pop up will appear
 
-![screenshot](./images/lab6_popup_mesage_testing_payload.png)
+![screenshot](images/lab6_popup_mesage_testing_payload.jpg)

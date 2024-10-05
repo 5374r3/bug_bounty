@@ -21,21 +21,21 @@ login to account, you will see Billing and Delivery Address click submit
 you will get `/my-account/change-address`
 send to repeater
 
-![[lab9_post_request_change_address.png]]
+![](images/lab9_post_request_change_address.jpg)
 
 step 2
 
 send POST/GET  request  to access `/admin`
 
-![[lab9_admin_panel_but_no_user.png]]
+![](images/lab9_admin_panel_but_no_user.jpg)
 
 step 3
 
 open admin panel run maintenance jobs
 you will see both task completed
 
-![[lab9_run_maintenance_job.png]]
-![[lab9_completed_maintenance_job.png]]
+![](images/lab9_run_maintenance_job.jpg)
+![](images/lab9_completed_maintenance_job.jpg)
 
 step 4
 
@@ -47,7 +47,7 @@ add a new property to the JSON with the name `__proto__`, containing an object 
 }
 ```
 
-![[lab9_add_propertied_json_space.png]]
+![](images/lab9_add_propertied_json_space.jpg)
 
 step 5
 
@@ -75,14 +75,14 @@ burp collaborator  url `59c8tszz0lolf2z00h8wl6mvhmndb4zt.oastify.com`
 ```
 
 
-![[lab9_add_first_payload_using_burp_collaborator.png]]
+![](images/lab9_add_first_payload_using_burp_collaborator.jpg)
 
 step 6
 
 go to the admin panel and trigger the maintenance jobs again.
 you have received several DNS interactions
 
-![[lab9_burp_collaborator_several_dns_response.png]]
+![](images/lab9_burp_collaborator_several_dns_response.jpg)
 
 
 step 7
@@ -97,7 +97,7 @@ final payload
 }
 ```
 
-![[lab9_add_payload_remove_carlos_account.png]]
+![](images/lab9_add_payload_remove_carlos_account.jpg)
 
 step 8
 
@@ -106,4 +106,4 @@ go to the admin panel and trigger the maintenance jobs again.
 this time one of the job not completed  and you lab will solved
 
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab9_lab_solved.png]]
+![](images/lab9_lab_solved.jpg)

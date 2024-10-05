@@ -15,19 +15,19 @@ confirm neew password = 1234
 both new password and confirm new password must be wrong
 if both new password and confirm password will be same you will redirect to login page again
 
-![screenshot](lab12_pass_incorrect.png)
+![screenshot](images/lab12_pass_incorrect.jpg)
 
 ### step2
 
 enter correct password
 but new passwod and confirm password must be diffeernet
 
-![screenshot](lab12_password_not_match.png)
+![screenshot](images/lab12_password_not_match.jpg)
 
-![screenshot](lab12_grep_math.png)
+![screenshot](images/lab12_grep_math.jpg)
 
 note: important password and new password must be differnent
 
-![screenshot](lab12_payload_position.png)
+![screenshot](images/lab12_payload_position.jpg)
 
-![screenshot](lab12_payload_result.png)
+![screenshot](images/lab12_payload_result.jpg)

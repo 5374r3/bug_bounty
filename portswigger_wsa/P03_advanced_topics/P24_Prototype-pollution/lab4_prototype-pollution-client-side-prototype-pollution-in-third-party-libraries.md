@@ -20,7 +20,7 @@ open burpsuite go to proxy section open browser
 click on extension icon 
 in main settings on Dom Invader and in attack types prototype pollution is on
 
-![[lab4_dom_invadar_setting_into_bursuite_browser.png]]
+![](images/lab4_dom_invadar_setting_into_bursuite_browser.jpg)
 
 
 step 2
@@ -28,7 +28,7 @@ step 2
 open dev tools click on DOM Invader
 click on scan for gadgets
 
-![[lab4_scan_for_gadgets.png]]
+![](images/lab4_scan_for_gadgets.jpg)
 
 step 3
 
@@ -36,14 +36,14 @@ from step 2 once you click on scan for gadgets you will redirect to new tab wher
 once scanning finished  open dev tools again you will see exploit option in DOM invader
 click on exploit
 
-![[lab4_exploite_dom_invadar.png]]
+![](images/lab4_exploite_dom_invadar.jpg)
 
 
 step 4
 
 from step 3 once you click on exploit you will get alert pop up
 
-![[lab4_alert_1_pop_up.png]]
+![](images/lab4_alert_1_pop_up.jpg)
 
 step 5
 
@@ -59,19 +59,19 @@ location="https://0a6200b7046dc61582c2bf5900f20062.web-security-academy.net/#__p
 </script>
 ```
 
-![[lab4_exploit_payload_added.png]]
+![](images/lab4_exploit_payload_added.jpg)
 
 when you click on view exploit
 you will get alert pop up
 
-![[lab4__view_exploit_alert_pop_up.png]]
+![](images/lab4__view_exploit_alert_pop_up.jpg)
 
 
 step 6
 
 to solve the lab click Deliver exploit to victim
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab4_solved_lab.png]]
+![](images/lab4_solved_lab.jpg)
 
 
 

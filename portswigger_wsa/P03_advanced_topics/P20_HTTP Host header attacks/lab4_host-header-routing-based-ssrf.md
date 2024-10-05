@@ -12,7 +12,7 @@
 
 send Homepage(/) to the repeter
 
-![screenshot](./images/lab4_homePage_into-repeter.png)
+![screenshot](images/lab4_homePage_into-repeter.jpg)
 
 ### step2
 
@@ -22,17 +22,17 @@ replace with host url
 `Host: mh7ba0stpilluj3j7qcr4o5b026tuji8.oastify.com`
 send request into repeter and go collaborator click on poll now
 
-![screenshot](./images/lab4_burp_collaborator_poll_now.png)
+![screenshot](images/lab4_burp_collaborator_poll_now.jpg)
 
 go to repeter after poll now from burp collaborator
 
-![screenshot](./images/lab4_burp_collaborator.png)
+![screenshot](images/lab4_burp_collaborator.jpg)
 
 ### step3
 
 access the internal admin panel located in the `192.168.0.0/24`
 
-![screenshot](./images/lab4_change_host_to_admin_url.png)
+![screenshot](images/lab4_change_host_to_admin_url.jpg)
 
 ### step4
 
@@ -42,41 +42,41 @@ payload
 values:
 `From: 0 To: 255 Step: 1`
 
-![screenshot](./images/lab4_payload_mark_uncheck.png)
+![screenshot](images/lab4_payload_mark_uncheck.jpg)
 
 payload result
 
-![screenshot](./images/lab4_payload_result_admin_url.png)
+![screenshot](images/lab4_payload_result_admin_url.jpg)
 
-![screenshot](./images/lab4_payload_result.png)
+![screenshot](images/lab4_payload_result.jpg)
 
 ### step5
 
-![screenshot](./images/lab4_access_admin_page.png)
+![screenshot](images/lab4_access_admin_page.jpg)
 
 ### step6
 
 add host `Host: 192.168.0.217` from ### step5
 
-![screenshot](./images/lab4_testing_admin_with_admin_host.png)
+![screenshot](images/lab4_testing_admin_with_admin_host.jpg)
 
 ### step7
 
 from ### step6 request in browser current session
 
-![screenshot](./images/lab4_test_admin_page_into_browser.png)
+![screenshot](images/lab4_test_admin_page_into_browser.jpg)
 
 ### step8
 
 it will not work
 
-![screenshot](./images/lab4_delete_user_not_found.png)
+![screenshot](images/lab4_delete_user_not_found.jpg)
 
 ### step9
 
 inspect ### step7
 
-![screenshot](./images/lab4_inspect_admin_page_for_csrf.png)
+![screenshot](images/lab4_inspect_admin_page_for_csrf.jpg)
 
 ---
 
@@ -84,8 +84,8 @@ inspect ### step7
 
 add _GET /admin/delete?csrf=engoKCu9WKZE7R4XsgDJxYzbkhNJMD8E&username=carlos_
 
-![screenshot](./images/lab4_final_payload_with_csrf_and_username.png)
+![screenshot](images/lab4_final_payload_with_csrf_and_username.jpg)
 
 reload page lab solved
 
-![screenshot](./images/lab4_congratulations_page.png)
+![screenshot](images/lab4_congratulations_page.jpg)

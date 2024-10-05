@@ -6,30 +6,30 @@
 
 ### step 1
 
-![screenshot](./images/lab1_send_homepage_to_repeter.png)
+![screenshot](images/lab1_send_homepage_to_repeter.jpg)
 
 ### step2
 
 add _X-forword-Host : any url without https or http_
 
-![screenshot](./images/lab1_x_forword_host_x-cache.png)
+![screenshot](images/lab1_x_forword_host_x-cache.jpg)
 
 ### step3
 
 inspect resourcee file
-![screenshot](./images/lab1_tracking_js_file.png)
+![screenshot](images/lab1_tracking_js_file.jpg)
 
 ### step4
 
 add payload to the resource/js/tracking.js
 
-![screenshot](./images/lab1_expolite_alert_payload.png)
+![screenshot](images/lab1_expolite_alert_payload.jpg)
 
 ### step5
 
-![screenshot](./images/lab1_x-forword_host_repeter.png)
+![screenshot](images/lab1_x-forword_host_repeter.jpg)
 
 ### step6
 
 reload page alert will pop up lab solve
-![screenshot](./images/lab1_alert_pop_up.png)
+![screenshot](images/lab1_alert_pop_up.jpg)

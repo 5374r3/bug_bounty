@@ -14,7 +14,7 @@
 
 open lab click on live chat and see history in burpsute
 
-![[lab9_cms_link_dulicate_url.png]]
+![](images/lab9_cms_link_dulicate_url.jpg)
 
 ### step2
 
@@ -22,11 +22,11 @@ open lab click on live chat and see history in burpsute
 click on cms link
 it will open login page
 
-![[lab9_cms_login_page.png]]
+![](images/lab9_cms_login_page.jpg)
 
 click on login alert pop will com
 
-![[lab9_cms_link_alert_pop.png]]
+![](images/lab9_cms_link_alert_pop.jpg)
 
 ### step3
 
@@ -76,13 +76,13 @@ change according to script and upload to explot and store and view expolit and p
 </script>
 ```
 
-![[lab9_burpcollab_http_dns.png]]
+![](images/lab9_burpcollab_http_dns.jpg)
 
-![[lab9_chat_after_payload_samesite_strict.png]]
+![](images/lab9_chat_after_payload_samesite_strict.jpg)
 
 before payload
 it was without same site
-![[lab9_chat_page_no_same_site.png]]
+![](images/lab9_chat_page_no_same_site.jpg)
 
 ### step4
 
@@ -104,4 +104,4 @@ change according to script and put into expolit and pull burp colleb
 </script>
 ```
 
-![[lab9_burpcollab_username_password.png]]
+![](images/lab9_burpcollab_username_password.jpg)

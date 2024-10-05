@@ -11,25 +11,25 @@
 change post request to get request
 change protocol from HTTP/2 to HTTP/1.1
 
-![screenshot](./images/images_lab4/lab4_homepage_with_post_request.png)
+![screenshot](images/images_lab4/lab4_homepage_with_post_request.jpg)
 
 ### step2
 
-![screenshot](./images/images_lab4/lab4_add_payload_for_lab1.png)
+![screenshot](images/images_lab4/lab4_add_payload_for_lab1.jpg)
 
 ### step3
 
-![screenshot](./images/images_lab4/lab4_proxy_error.png)
+![screenshot](images/images_lab4/lab4_proxy_error.jpg)
 
 ### step4
 
-![screenshot](./images/images_lab4/lab4_payload_ce_te.png)
+![screenshot](images/images_lab4/lab4_payload_ce_te.jpg)
 
 ### step5
 
 content-Length update must be unmarked
 
-![screenshot](./images/images_lab4/lab4_uncheck_content_length.png)
+![screenshot](images/images_lab4/lab4_uncheck_content_length.jpg)
 
 ### step6
 
@@ -44,7 +44,7 @@ GET /post?postId=5 HTTP/1.1
 Foo: x
 ```
 
-![screenshot](./images/images_lab4/lab4_test_payload_to_display_post.png)
+![screenshot](images/images_lab4/lab4_test_payload_to_display_post.jpg)
 
 ### step7
 
@@ -57,7 +57,7 @@ GET /post?postId=5 HTTP/1.1
 Foo: x
 ```
 
-![screenshot](./images/images_lab4/lab4_payloadfor_post.png)
+![screenshot](images/images_lab4/lab4_payloadfor_post.jpg)
 
 ### step8
 
@@ -70,10 +70,10 @@ GET /404 HTTP/1.1
 Foo: x
 ```
 
-![screenshot](./images/images_lab4/lab4_404_request_payload.png)
+![screenshot](images/images_lab4/lab4_404_request_payload.jpg)
 
 ### step9
 
 lab solved
 
-![screenshot](./images/images_lab4/lab4_lab_solved.png)
+![screenshot](images/images_lab4/lab4_lab_solved.jpg)

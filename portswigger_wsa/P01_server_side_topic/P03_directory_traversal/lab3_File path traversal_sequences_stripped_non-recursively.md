@@ -18,4 +18,4 @@ change url
 ET /image?filename=....//....//....//etc/passwd
 and send forward turn of intercept
 
-![screenshot](./images/lab3_http_request.png)
+![screenshot](images/lab3_http_request.jpg)

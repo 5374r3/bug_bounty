@@ -12,7 +12,7 @@ login using userid and password
 and see /my-account page in burpsuite
 you will see a seesion send to repeater
 
-![screenshot](./images/lab1_session_id_repeater.png)
+![screenshot](images/lab1_session_id_repeater.jpg)
 
 ### step2
 
@@ -28,20 +28,20 @@ change `b:0 to b:1`
 O:4:"User":2:{s:8:"username";s:6:"wiener";s:5:"admin";b:1;}
 ```
 
-![screenshot](./images/lab1_decoding_encoding_session.png)
+![screenshot](images/lab1_decoding_encoding_session.jpg)
 
 step3
 use the encoded sessionid
 
-![screenshot](./images/lab1_decoded_session_id.png)
+![screenshot](images/lab1_decoded_session_id.jpg)
 
 ### step4
 
 reload account page and intercept
 change session id with modified session id
 
-![screenshot](./images/lab1_modify_session.png)
+![screenshot](images/lab1_modify_session.jpg)
 
-![screenshot](./images/lab1_admin_panel.png)
+![screenshot](images/lab1_admin_panel.jpg)
 
 goto admin panel and delete carlos

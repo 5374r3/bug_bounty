@@ -10,26 +10,26 @@
 
 send Homepage into repeter
 
-![screenshot](./images/lab5_homepage_repeter.png)
+![screenshot](images/lab5_homepage_repeter.jpg)
 
 ### step2
 
 change host url
 eg. change net to com
 
-![screenshot](./images/lab5_homepage_change_host.png)
+![screenshot](images/lab5_homepage_change_host.jpg)
 
 ### step3
 
 add GET request `https://0ac6008603da820a815ce42800d200c5.web-security-academy.net/`
 
-![screenshot](./images/lab5_add_url_directly_to_home_page.png)
+![screenshot](images/lab5_add_url_directly_to_home_page.jpg)
 
 ### step4
 
 add host from burp collaborator
 
-![screenshot](./images/lab5_burp_collaborator_to_home_page.png)
+![screenshot](images/lab5_burp_collaborator_to_home_page.jpg)
 
 ### step5
 
@@ -42,23 +42,23 @@ payload number
 
 start attack
 
-![screenshot](./images/lab5_attacking_result_intruder.png)
+![screenshot](images/lab5_attacking_result_intruder.jpg)
 
-![screenshot](./images/lab5_response_from_intruder.png)
+![screenshot](images/lab5_response_from_intruder.jpg)
 
 ### step6
 
 add
 host: `192.168.0.12` is /admin response
 
-![screenshot](./images/lab5_add_admin_into_get_request.png)
+![screenshot](images/lab5_add_admin_into_get_request.jpg)
 
 ### step7
 
 from ### step6 right click request in browser current session
 client error
 
-![screenshot](./images/lab5_client_error_forbidden.png)
+![screenshot](images/lab5_client_error_forbidden.jpg)
 
 ### step8
 
@@ -75,7 +75,7 @@ in response you will see
 
 ```
 
-![screenshot](./images/lab5_response_page_from_step_6.png)
+![screenshot](images/lab5_response_page_from_step_6.jpg)
 
 ### step9
 
@@ -84,4 +84,4 @@ add csrf token and user name into get request
 _GET https://0ac6008603da820a815ce42800d200c5.web-security-academy.net/admin/delete?&csrf=g1WAHTPf0JSymLWkKMLNxxwbN3lo99uc&username=carlos HTTP/2_
 send request lab solved
 
-![screenshot](./images/lab5_csrf_token_homepage_to_repeter.png)
+![screenshot](images/lab5_csrf_token_homepage_to_repeter.jpg)

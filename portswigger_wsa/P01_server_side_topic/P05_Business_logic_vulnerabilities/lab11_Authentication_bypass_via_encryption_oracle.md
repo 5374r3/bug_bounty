@@ -10,21 +10,21 @@
 
 copy stay logged in string
 
-![screenshot](./images/lab11_post_comment.png)
+![screenshot](images/lab11_post_comment.jpg)
 
 ### step2
 
 paste post comment stay logged in into
 get post/postid into cookies notification
 
-![screenshot](./images/lab11_get_post.png)
+![screenshot](images/lab11_get_post.jpg)
 
 ### step3
 
 send you will get
 wiener:1677300649109 (this number can be different when test again)
 
-![screenshot](./images/lab11_wiener_id.png)
+![screenshot](images/lab11_wiener_id.jpg)
 
 ### step4
 
@@ -32,14 +32,14 @@ wiener:1677300649109 (this number can be different when test again)
 2.  send request
 3.  copy set cookies notification string
 
-![screenshot](./images/lab11_changes_email.png)
+![screenshot](images/lab11_changes_email.jpg)
 
 ### step5
 
 1. copy set notification from post comment and paste into get post id cookie notification
 2. note down the invalid email address length = 23
 
-![screenshot](./images/lab11_set_cookies_notification.png)
+![screenshot](images/lab11_set_cookies_notification.jpg)
 
 ### step6
 
@@ -47,12 +47,12 @@ wiener:1677300649109 (this number can be different when test again)
 2. decode as url
 3. decode as base64
 4. select 32 bits and delete
-   ![screenshot](./images/lab11_decoder.png)
+   ![screenshot](images/lab11_decoder.jpg)
 
 5. encode as base64
 6. encode as url
 
-![screenshot](./images/lab11_encode.png)
+![screenshot](images/lab11_encode.jpg)
 
 ### step7
 
@@ -68,25 +68,25 @@ administrator:1677300649109
 like this
 xxxxxxxxxadministrator:1677300649109
 total x is 9
-![screenshot](./images/lab11_encrypt_cookies_request.png)
+![screenshot](images/lab11_encrypt_cookies_request.jpg)
 
 ### step8
 
 modify administrator and send request copy cookies notfication from response seconde and decode
 
-![screenshot](./images/lab11_add_9_words_into_administrator.png)
+![screenshot](images/lab11_add_9_words_into_administrator.jpg)
 
 ### step9
 
 decode and encode
 
-![screenshot](./images/lab11_decode_encode_again.png)
+![screenshot](images/lab11_decode_encode_again.jpg)
 
 ---
 
 ### step 10
 
-![screenshot](./images/lab11_adminstrator.png)
+![screenshot](images/lab11_adminstrator.jpg)
 
 ---
 
@@ -98,6 +98,6 @@ click on my account
 1. remove old session
 2. change stay logged in and paste the decoded url
 3. forword request intercept off
-   ![screenshot](./images/lab11_intercept_home_request.png)
+   ![screenshot](images/lab11_intercept_home_request.jpg)
 
-![screenshot](./images/lab11_admin_panel.png)
+![screenshot](images/lab11_admin_panel.jpg)

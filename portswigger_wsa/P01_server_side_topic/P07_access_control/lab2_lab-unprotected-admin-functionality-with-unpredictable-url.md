@@ -11,7 +11,7 @@
 open url
 see the response of home page
 
-![screenshot](./images/lab2_response_home_page.png)
+![screenshot](images/lab2_response_home_page.jpg)
 
 ### step2
 

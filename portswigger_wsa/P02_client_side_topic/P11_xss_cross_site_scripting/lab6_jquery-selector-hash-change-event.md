@@ -27,14 +27,14 @@ if (post) post.get(0).scrollIntoView();
 </script>
 ```
 
-![screenshot](./images/lab6_hash_value.png)
+![screenshot](images/lab6_hash_value.jpg)
 
-![screenshot](./images/lab6_hash_with_post_name.png)
+![screenshot](images/lab6_hash_with_post_name.jpg)
 
 test with
 `#<img src=1 onerror=alert(1)>`
 
-![screenshot](./images/lab6_hash_with_image_pageload.png)
+![screenshot](images/lab6_hash_with_image_pageload.jpg)
 
 ### step2
 
@@ -53,4 +53,4 @@ change src url with lab url and change alert(1) with print()
 
 put inside exploit page and submit
 
-![screenshot](./images/lab6_exploit_payload.png)
+![screenshot](images/lab6_exploit_payload.jpg)

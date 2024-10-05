@@ -14,7 +14,7 @@ Transfer-Encoding: chunked
 userid=test
 ```
 
-![screenshot](./images/images_lab9/lab9_post_request_500_error.png)
+![screenshot](images/images_lab9/lab9_post_request_500_error.jpg)
 
 step 2
 
@@ -29,7 +29,7 @@ userid=test
 
 ```
 
-![screenshot](./images/images_lab9/lab9_post_request_200_ok.png)
+![screenshot](images/images_lab9/lab9_post_request_200_ok.jpg)
 
 step 3
 
@@ -44,7 +44,7 @@ userid=test
 
 ```
 
-![screenshot](./images/images_lab9/lab9_post_request_500_cl.png)
+![screenshot](images/images_lab9/lab9_post_request_500_cl.jpg)
 
 step 4
 
@@ -65,7 +65,7 @@ userid=test
 
 ```
 
-![screenshot](./images/images_lab9/lab9_method_not_allowed.png)
+![screenshot](images/images_lab9/lab9_method_not_allowed.jpg)
 
 step 5
 
@@ -85,7 +85,7 @@ Content-Length: 12
 userid=test
 ```
 
-![screenshot](./images/images_lab9/lab9_post_id_5_payload.png)
+![screenshot](images/images_lab9/lab9_post_id_5_payload.jpg)
 
 step 6
 
@@ -104,7 +104,7 @@ userid=test
 
 ```
 
-![screenshot](./images/images_lab9/lab9_get-post_request.png)
+![screenshot](images/images_lab9/lab9_get-post_request.jpg)
 
 step 7
 
@@ -114,17 +114,17 @@ post comment and intercept
 csrf=D5a7tvBfmUgluc1MpJYSpRDZnixghk2x&postId=3&comment=this+is+test&name=testname&email=test%40mail.com&website=
 ```
 
-![screenshot](./images/images_lab9/lab9_post_comment.png)
+![screenshot](images/images_lab9/lab9_post_comment.jpg)
 
 step 8
 
-![screenshot](./images/images_lab9/lab9_add_copy_csrf_section_with_comment.png)
+![screenshot](images/images_lab9/lab9_add_copy_csrf_section_with_comment.jpg)
 
 step 9
 
 post comment with different comment
 
-![screenshot](./images/images_lab9/lab9_remove_unnesaary_header.png)
+![screenshot](images/images_lab9/lab9_remove_unnesaary_header.jpg)
 
 ---
 
@@ -156,7 +156,7 @@ Cookie: session=oRaLAPeBQwjMu7hH7CY3ApQxu34w7O4t
 csrf=D5a7tvBfmUgluc1MpJYSpRDZnixghk2x&postId=3&name=hackk&email=test1%40mail.com&website=&comment=
 ```
 
-![screenshot](./images/images_lab9/lab9_post_comment_payload.png)
+![screenshot](images/images_lab9/lab9_post_comment_payload.jpg)
 
 ---
 
@@ -170,7 +170,7 @@ secret=biu3gp5YN1RAKIZOStdiVv3xysxFQ0fB;
 session=s47pz7I1zqG9g5mnsLTjYxHstu2CUtpq
 ```
 
-![screenshot](./images/images_lab9/lab9_add_content_length_900.png)
+![screenshot](images/images_lab9/lab9_add_content_length_900.jpg)
 
 ---
 
@@ -181,6 +181,6 @@ and intercept and replace session id with session id from **\_\_\_\_**
 
 step 11
 
-![screenshot](./images/images_lab9/lab9_intercept_carslos_account.png)
+![screenshot](images/images_lab9/lab9_intercept_carslos_account.jpg)
 
-![screenshot](./images/images_lab9/lab9_lab_solved.png)
+![screenshot](images/images_lab9/lab9_lab_solved.jpg)

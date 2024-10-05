@@ -12,13 +12,13 @@ send / to repeter
 add /example or and random
 and send request it will display a not found page
 
-![screenshot](./images/lab9_add_random_get_request.png)
+![screenshot](images/lab9_add_random_get_request.jpg)
 
 ### step2
 
 add `GET /example</p><script>alert(1)</script>`
 
-![screenshot](./images/lab9_add_payload_into_repeter.png)
+![screenshot](images/lab9_add_payload_into_repeter.jpg)
 
 ### step3
 
@@ -26,7 +26,7 @@ request the current session into browser
 if pop will not show
 send ### step2 process (send request again)
 
-![screenshot](./images/lab9_alertpop_up_testing.png)
+![screenshot](images/lab9_alertpop_up_testing.jpg)
 
 ### step4
 

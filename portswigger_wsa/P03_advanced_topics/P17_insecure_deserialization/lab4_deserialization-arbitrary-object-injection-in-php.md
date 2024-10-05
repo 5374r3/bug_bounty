@@ -14,29 +14,29 @@ login account
 
 view source code of homepage
 
-![screenshot](./images/lab4_todo_customtemplate.png)
+![screenshot](images/lab4_todo_customtemplate.jpg)
 
 ### step3 open link /libs/CustomTemplate.php
 
-![screenshot](./images/lab4_nothing_showing.png)
+![screenshot](images/lab4_nothing_showing.jpg)
 
 ### step4 open link /libs/CustomTemplate.php~
 
-![screenshot](./images/lab4_tild_php_file_code.png)
+![screenshot](images/lab4_tild_php_file_code.jpg)
 
 ### step5
 
 send php to repeter
 
-![screenshot](./images/lab4_phpfile_into_repeter.png)
+![screenshot](images/lab4_phpfile_into_repeter.jpg)
 
 ### step6 copy cookie id to decoder
 
-![screenshot](./images/lab4_decoder_session_id.png)
+![screenshot](images/lab4_decoder_session_id.jpg)
 
 ### step7
 
 coy encoded session id and reload home page
 replace session id with this session id
 
-![screenshot](./images/lab4_php_error_with_congratulation.png)
+![screenshot](images/lab4_php_error_with_congratulation.jpg)

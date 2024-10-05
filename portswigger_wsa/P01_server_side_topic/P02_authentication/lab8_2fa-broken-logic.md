@@ -18,4 +18,4 @@ ___
 7.  Load the 302 response in the browser.
 8.  Click **My account** to solve the lab.
 
-![screenshot](lab8_result.png)
+![screenshot](images/lab8_result.jpg)

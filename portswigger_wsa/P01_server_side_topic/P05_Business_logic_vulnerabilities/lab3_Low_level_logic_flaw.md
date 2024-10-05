@@ -13,11 +13,11 @@ then go to payload option
 
 payload option
 
-![screenshot](./images/lab3_payload.png)
+![screenshot](images/lab3_payload.jpg)
 
 362 or 323 depends on which value the negative number so less
 now add different item to make it positive value
 
-![screenshot](./images/lab3_total_value_of_cart.png)
+![screenshot](images/lab3_total_value_of_cart.jpg)
 
 once value is postive and less than $100 checkout you solve the problem

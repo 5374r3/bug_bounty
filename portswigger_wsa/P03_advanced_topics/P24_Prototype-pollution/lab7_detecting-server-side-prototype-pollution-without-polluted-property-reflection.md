@@ -15,7 +15,7 @@ login to account
 go to http history you will see `/my-account/change-address`
 send to repeater you will get json object of user
 
-![[lab7_json_object_with_user_information_repeater.png]]
+![](images/lab7_json_object_with_user_information_repeater.jpg)
 
 
 step 2
@@ -26,14 +26,14 @@ step 2
 }
 ```
 
-![[lab7_change_address_proto_foo_bar.png]]
+![](images/lab7_change_address_proto_foo_bar.jpg)
 
 step 3
 
 remove comma from json object to create error
 and then send request you get 500 error with 400 status
 
-![[lab7_satatus_400_remove_comma.png]]
+![](images/lab7_satatus_400_remove_comma.jpg)
 
 step 4
 
@@ -44,7 +44,7 @@ step 4
 ```
 
 
-![[lab7_add_status_proto_555.png]]
+![](images/lab7_add_status_proto_555.jpg)
 
 
 step 5
@@ -55,7 +55,7 @@ step 5
 }
 ```
 
-![[lab7_add_is_admin_true_json.png]]
+![](images/lab7_add_is_admin_true_json.jpg)
 
 
 step 6
@@ -64,6 +64,6 @@ remove comma from json and send request
 you will notice status:555 in response
 go to browser you will see lab solved
 
-![[lab7_ststus_555_in_response.png]]
+![](images/lab7_ststus_555_in_response.jpg)
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab7_solved_lab.png]]
+![](images/lab7_solved_lab.jpg)

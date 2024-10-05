@@ -13,24 +13,24 @@ the value of age will change at each request and x-cache: hit
 once value of age = 0
 x-cache: miss
 
-![screenshot](./images/lab5_homepage_into_repeter.png)
+![screenshot](images/lab5_homepage_into_repeter.jpg)
 
 ### step2
 
 add cache-buster query parameter eg /?cb=1222
 so /?test=123
 
-![screenshot](./images/lab5_add_test_as_cache_buster.png)
+![screenshot](images/lab5_add_test_as_cache_buster.jpg)
 
 ### step3
 
-![screenshot](./images/lab5_test_another_cache_buster_with_quotes.png)
+![screenshot](images/lab5_test_another_cache_buster_with_quotes.jpg)
 
 ### step4
 
 right click request on browser current session
 
-![screenshot](./images/lab5_current_seeion_in_browser_with_hello.png)
+![screenshot](images/lab5_current_seeion_in_browser_with_hello.jpg)
 
 ### step5
 
@@ -39,11 +39,11 @@ max-age = 35
 age:31
 x-cache: hit
 it will not store payload untill age=0 and x-cache: miss
-![screenshot](./images/lab5_payload_testing.png)
+![screenshot](images/lab5_payload_testing.jpg)
 
 ### step6
 
-![screenshot](./images/lab5_payload_request_final.png)
+![screenshot](images/lab5_payload_request_final.jpg)
 
 ### step7
 
@@ -53,4 +53,4 @@ go to request in browser
 go to current session copy url paste into browser
 lab solved
 
-![screenshot](./images/lab5_alert_pop_up.png)
+![screenshot](images/lab5_alert_pop_up.jpg)

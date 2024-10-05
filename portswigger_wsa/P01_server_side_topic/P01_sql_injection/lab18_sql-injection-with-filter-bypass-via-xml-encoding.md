@@ -13,13 +13,13 @@ open lab go to any product
 click on check stock and intercept request through burpsuite
 and send to repeater
 
-![screnshot](./images/lab18_0.png)
+![screnshot](images/lab18_0.jpg)
 
 step 2
 
 send request you will get total units
 
-![screnshot](./images/lab18_1.png)
+![screnshot](images/lab18_1.jpg)
 
 step 3
 
@@ -38,7 +38,7 @@ you will see changes in units
 </stockCheck>
 ```
 
-![screnshot](./images/lab18_2.png)
+![screnshot](images/lab18_2.jpg)
 
 step 4
 
@@ -57,7 +57,7 @@ you will see changes in units
 </stockCheck>
 ```
 
-![screnshot](./images/lab18_3.png)
+![screnshot](images/lab18_3.jpg)
 
 
 step 5
@@ -80,7 +80,7 @@ you will see unit with null
 </stockCheck>
 ```
 
-![screnshot](./images/lab18_4.png)
+![screnshot](images/lab18_4.jpg)
 
 step 6
 
@@ -101,11 +101,11 @@ you will see account with password
 </stockCheck>
 ```
 
-![screnshot](./images/lab18_5.png)
+![screnshot](images/lab18_5.jpg)
 
 step 7
 
 To solve the lab use
 `administrator~0swkp8f5wyqrafgemqjz`
 
-![screnshot](./images/lab18_6.png)
+![screnshot](images/lab18_6.jpg)

@@ -18,11 +18,11 @@ change to
 
 forword request
 
-![screenshot](./images/portswigger_wsa/P01_server_side_topic/P09_ssrf/images/lab1_admin_panel.png)
+![screenshot](./images/portswigger_wsa/P01_server_side_topic/P09_ssrf/images/lab1_admin_panel.jpg)
 
 inspect carlos delete
 
-![screenshot](./images/lab1_inspect_carlos.png)
+![screenshot](images/lab1_inspect_carlos.jpg)
 
 href="/admin/delete?username=carlos"
 

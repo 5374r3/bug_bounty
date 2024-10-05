@@ -8,7 +8,7 @@
 
 ### Although the lab supports HTTP/2, the intended solution requires techniques that are only possible in HTTP/1. You can manually switch protocols in Burp Repeater from the **Request attributes** section of the **Inspector** panel.
 
-![screenshot](./images/images_lab1/lab1_request_attribute.png)
+![screenshot](images/images_lab1/lab1_request_attribute.jpg)
 
 ### CL.TE => the front-end server uses the `Content-Length` header and the back-end server uses the `Transfer-Encoding` header.
 
@@ -18,13 +18,13 @@
 
 send home page to the repeater
 
-![screenshot](./images/images_lab1/lab1_send_homepage_to_repeter.png)
+![screenshot](images/images_lab1/lab1_send_homepage_to_repeter.jpg)
 
 ### step2
 
 change request method from get to post
 
-![screenshot](./images/images_lab1/lab1_chnage_request_method_from_get_to_post.png)
+![screenshot](images/images_lab1/lab1_chnage_request_method_from_get_to_post.jpg)
 
 ### step3
 
@@ -36,11 +36,11 @@ SMUGGLED
 the intended solution requires techniques that are only possible in HTTP/1
 change HTTP/2 to HTTP/1.1 using inspector
 
-![screenshot](./images/images_lab1/lab1_modify_content_length.png)
+![screenshot](images/images_lab1/lab1_modify_content_length.jpg)
 
 how content-Length is 17
 
-![screenshot](./images/images_lab1/lab1_understand_content_length.png.png)
+![screenshot](./images/images_lab1/lab1_understand_content_length.png.jpg)
 
 ### step4
 
@@ -49,22 +49,22 @@ example: => when _Content-Length: 10 and Transfer-Encoding: chunked_ used
 on backed Content-Length: 10 will ignore and Transfer-Encoding: chunked will valid
 on front-end Content-Length will be valid
 
-![screenshot](./images/images_lab1/lab1_post_request_again.png)
+![screenshot](images/images_lab1/lab1_post_request_again.jpg)
 
 ### step6
 
 to solve this lab we need `use the method `GPOST`
 
-![screenshot](./images/images_lab1/lab1_gpost_request.png)
+![screenshot](images/images_lab1/lab1_gpost_request.jpg)
 
 ### step7
 
 send request again
 
-![screenshot](./images/images_lab1/lab1_gpost_request_again.png)
+![screenshot](images/images_lab1/lab1_gpost_request_again.jpg)
 
 ### step8
 
 lab solved
 
-![screenshot](./images/images_lab1/lab1_solved_lab.png)
+![screenshot](images/images_lab1/lab1_solved_lab.jpg)

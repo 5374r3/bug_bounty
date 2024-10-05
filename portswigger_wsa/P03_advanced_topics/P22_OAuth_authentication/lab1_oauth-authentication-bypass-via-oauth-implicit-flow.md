@@ -12,17 +12,17 @@ step 1
 
 observe whole login process
 
-![screenshot](./images/lab1_proxy_http_history.png)
+![screenshot](images/lab1_proxy_http_history.jpg)
 
 step 2
 
 send to authenticate to repeater
 and change email with username
 
-![screenshot](./images/lab1_post_request_with_carlos.png)
+![screenshot](images/lab1_post_request_with_carlos.jpg)
 
 step 3
 once 302 found click click request in browser current session paste into browser
 lab solved
 
-![screenshot](./images/lab1_solved_lab.png)
+![screenshot](images/lab1_solved_lab.jpg)

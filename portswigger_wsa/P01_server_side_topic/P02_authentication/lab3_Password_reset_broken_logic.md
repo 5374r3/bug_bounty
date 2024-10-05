@@ -7,6 +7,6 @@
 ___
 
 
-![screenshot](lab3_forgot_password_actual_token.png)
+![screenshot](images/lab3_forgot_password_actual_token.jpg)
 
-![screenshot](lab3_forgot_password_remove_token.png)
+![screenshot](images/lab3_forgot_password_remove_token.jpg)

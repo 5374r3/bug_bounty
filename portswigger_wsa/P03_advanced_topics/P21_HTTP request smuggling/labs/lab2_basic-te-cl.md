@@ -10,35 +10,35 @@
 
 ### step 1
 
-![screenshot](./images/images_lab2/lab2_homepage_get_request.png)
+![screenshot](images/images_lab2/lab2_homepage_get_request.jpg)
 
 ### step2
 
 change request method from get to post
 
-![screenshot](./images/images_lab2/lab2_homepage_post_request.png)
+![screenshot](images/images_lab2/lab2_homepage_post_request.jpg)
 
 ### step3
 
 make sure to untick update content-length otherwise it will update automatically
 
-![screenshot](./images/images_lab2/lab2_testing_content_type.png)
+![screenshot](images/images_lab2/lab2_testing_content_type.jpg)
 
 ### step4
 
-![screenshot](./images/images_lab2/lab2_x_equal_g_g0post.png)
+![screenshot](images/images_lab2/lab2_x_equal_g_g0post.jpg)
 
 ### step5
 
-![screenshot](./images/images_lab2/lab2_hexadecimal_value_a.png)
+![screenshot](images/images_lab2/lab2_hexadecimal_value_a.jpg)
 
 ### step6
 
-![screenshot](./images/images_lab2/lab2_content_length.png)
+![screenshot](images/images_lab2/lab2_content_length.jpg)
 
 ### step7
 
-![screenshot](./images/images_lab2/lab2_content_length_greater_than_a.png)
+![screenshot](images/images_lab2/lab2_content_length_greater_than_a.jpg)
 
 ### step8
 
@@ -58,23 +58,23 @@ x=1
 
 ### Note : you can directly use GPOST in place of LPOST
 
-![screenshot](./images/images_lab2/lab2_payload_testing.png)
+![screenshot](images/images_lab2/lab2_payload_testing.jpg)
 
 ### step9
 
-![screenshot](./images/images_lab2/lab2_r_n_contentent_length.png)
+![screenshot](images/images_lab2/lab2_r_n_contentent_length.jpg)
 
 ---
 
 ### step 10
 
-![screenshot](./images/images_lab2/lab2_content_length_15.png)
+![screenshot](images/images_lab2/lab2_content_length_15.jpg)
 
 ---
 
 ### step 11
 
-![screenshot](./images/images_lab2/lab2_hexadecimal_vlaue_on_another_request.png)
+![screenshot](images/images_lab2/lab2_hexadecimal_vlaue_on_another_request.jpg)
 
 ---
 
@@ -82,9 +82,9 @@ x=1
 
 change LPOST to GPOST
 
-![screenshot](./images/images_lab2/lab2_final_payload_gpost_to_solve_lab.png)
+![screenshot](images/images_lab2/lab2_final_payload_gpost_to_solve_lab.jpg)
 
-![screenshot](./images/images_lab2/portswigger_wsa/P03_advanced_topics/P21_HTTP request smuggling/labs/images/images_lab2/lab2_solved_lab.png)
+![screenshot](./images/images_lab2/portswigger_wsa/P03_advanced_topics/P21_HTTP request smuggling/labs/images/images_lab2/lab2_solved_lab.jpg)
 
 we can remove unnecessary lines from repeter
 
@@ -92,4 +92,4 @@ we can remove unnecessary lines from repeter
 
 ### step 12(another way)
 
-![screenshot](./images/images_lab2/lab2_gpost.png)
+![screenshot](images/images_lab2/lab2_gpost.jpg)

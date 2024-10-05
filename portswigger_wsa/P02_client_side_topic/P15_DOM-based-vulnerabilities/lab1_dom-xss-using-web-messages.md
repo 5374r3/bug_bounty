@@ -11,7 +11,7 @@
 ></iframe>
 ```
 
-![[lab1_object_object_window.addEventListner.png]]
+![](images/lab1_object_object_window.addEventListner.jpg)
 
 add `<img src=1 onerror=print()>` to perform
 
@@ -23,4 +23,4 @@ add `<img src=1 onerror=print()>` to perform
 </iframe>
 ```
 
-![[lab1_onerror.png]]
+![](images/lab1_onerror.jpg)

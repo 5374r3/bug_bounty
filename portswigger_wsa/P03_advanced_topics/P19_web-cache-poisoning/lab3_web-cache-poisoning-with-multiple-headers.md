@@ -12,22 +12,22 @@
 
 ### step 1
 
-![screenshot](./images/lab3_host.png)
+![screenshot](images/lab3_host.jpg)
 
 ## ### step2
 
-![screenshot](./images/lab3_scheme.png)
+![screenshot](images/lab3_scheme.jpg)
 
 ### step3
 
-![screenshot](./images/lab3_host_scheme.png)
+![screenshot](images/lab3_host_scheme.jpg)
 
 ### step4
 
-![screenshot](./images/lab3_payload_expolite.png)
+![screenshot](images/lab3_payload_expolite.jpg)
 
 ### step5
 
-![screenshot](./images/lab3_expolit_payload.png)
+![screenshot](images/lab3_expolit_payload.jpg)
 
 lab solved

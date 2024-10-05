@@ -8,7 +8,7 @@
 
 relad page and find page with cookie and fehost
 
-![screenshot](./images/lab2_fehost_cookie.png)
+![screenshot](images/lab2_fehost_cookie.jpg)
 
 ### step2
 
@@ -19,4 +19,4 @@ add payload _fehost=anyrandomword"-alert(1)-"anyrandomword_
 x-chache: miss
 reload home page to see alert pop up
 
-![screenshot](./images/lab2_alert_popup.png)
+![screenshot](images/lab2_alert_popup.jpg)

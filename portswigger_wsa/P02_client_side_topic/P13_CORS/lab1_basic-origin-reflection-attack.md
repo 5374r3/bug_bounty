@@ -13,7 +13,7 @@
 login in using userid and password and check history in burpsuite
 you will notice accountdetails response showing
 
-![[lab1_account_details.png]]
+![](images/lab1_account_details.jpg)
 
 ### step2
 
@@ -21,7 +21,7 @@ Access-Control-Allow-Credentials : true
 
 send to repeater and add origin: https://example.com for testing
 
-![[lab1_add_origin_url.png]]
+![](images/lab1_add_origin_url.jpg)
 
 ### step3
 

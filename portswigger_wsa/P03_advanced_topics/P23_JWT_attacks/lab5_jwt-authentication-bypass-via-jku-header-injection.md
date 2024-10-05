@@ -10,18 +10,18 @@
 
 step 1
 
-![[lab5_my_account.png]]
+![](images/lab5_my_account.jpg)
 
 step 2
 
-![[lab5_admin_request.png]]
+![](images/lab5_admin_request.jpg)
 
 step 3
 
-![[lab5_rsa_key_generated.png]]
+![](images/lab5_rsa_key_generated.jpg)
 
 step 4
-![[lab5_example_jwk.png]]
+![](images/lab5_example_jwk.jpg)
 format for payload
 
 ```json
@@ -33,7 +33,7 @@ format for payload
 }
 ```
 
-![[lab5_rsa_file_copy_for_public_key.png]]
+![](images/lab5_rsa_file_copy_for_public_key.jpg)
 
 ```json
 {
@@ -63,7 +63,7 @@ look like
 step 5
 copy final payload to exploit and click on store
 
-![[lab5_exploit_pyload_store.png]]
+![](images/lab5_exploit_pyload_store.jpg)
 
 step 6
 
@@ -72,16 +72,16 @@ step 6
 - click on sign in, pop will appear don't modify header click ok
 - send Get /admin request you will get 200 ok
 
-![[lab5_modidy_header_add_jku.png]]
+![](images/lab5_modidy_header_add_jku.jpg)
 
 when you will get 200 ok go to bottom
 you will see admin panel and wiener and carlos account delete operation
 
-![[lab5_admin_panel.png]]
+![](images/lab5_admin_panel.jpg)
 
 step 6
 send GET /admin/delete?username=carlos request to solve lab
 
-![[lab5_delete_carlos_account.png]]
+![](images/lab5_delete_carlos_account.jpg)
 
-![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab5_solved_lab.png]]
+![](images/lab5_solved_lab.jpg)

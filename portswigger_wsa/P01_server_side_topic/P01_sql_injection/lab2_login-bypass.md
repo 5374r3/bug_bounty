@@ -18,9 +18,9 @@ in the above example `'--` added to the username rest become `comment` whatever 
 
 step 1
 
-![screnshot](./images/lab2_login_page.png)
+![screnshot](images/lab2_login_page.jpg)
 
-![screnshot](./images/lab2_solved_lab.png)
+![screnshot](images/lab2_solved_lab.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ step 1
 go to login page
 enter incorrect userid and password and intercept request to burpsuite
 
-![screnshot](./images/lab2_login_intercept.png)
+![screnshot](images/lab2_login_intercept.jpg)
 
 step 2
 
@@ -39,7 +39,7 @@ send to repeater
 change user name with `'administrator--`
 send request you will get 302 found location `/my-account?id=administrator`
 
-![screnshot](./images/lab2_administrator.png)
+![screnshot](images/lab2_administrator.jpg)
 
 step 3
 

@@ -27,10 +27,10 @@ OLBNOvcGpJ8NiYO5k1gFyUSNkpTAVdhV
 
 submit code lab solved
 
-![screenshot](./images/lab4_image_upload_file_intercept.png)
+![screenshot](images/lab4_image_upload_file_intercept.jpg)
 
-![screenshot](./images/lab4_htacess_add_type.png)
+![screenshot](images/lab4_htacess_add_type.jpg)
 
-![screenshot](./images/lab4_test_shell_upload.png)
+![screenshot](images/lab4_test_shell_upload.jpg)
 
-![screenshot](./images/lab4_getrequest_test_shell.png)
+![screenshot](images/lab4_getrequest_test_shell.jpg)

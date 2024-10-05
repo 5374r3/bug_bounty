@@ -15,7 +15,7 @@ login in to account using userid and password
 ### step2
 
 update email id with same email or different email id
-![screenshot](./images/lab4_email_id_with_roleid.png)
+![screenshot](images/lab4_email_id_with_roleid.jpg)
 
 intercept the update email id
 cahnge role 1 to role 2

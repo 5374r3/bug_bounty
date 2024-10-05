@@ -26,6 +26,6 @@ step 2
 go to exploit section 
 paste and click on deliver to exploit you will see lab solved
 
-![[lab6_0.png]]
+![](images/lab6_0.jpg)
 
-![[lab6_1.png]]
+![](images/lab6_1.jpg)

@@ -23,32 +23,32 @@ Content-Length: 12
 userid=test
 ```
 
-![screenshot](./images/images_lab10/lab10_test_first_payload.png)
+![screenshot](images/images_lab10/lab10_test_first_payload.jpg)
 
 step 2
 
 inspect comment section
 
-![screenshot](./images/images_lab10/lab10_inspect_comment_section.png)
+![screenshot](images/images_lab10/lab10_inspect_comment_section.jpg)
 
 step 3
 intercept post
 
-![screenshot](./images/images_lab10/lab10_intercept_post_containng_comment.png)
+![screenshot](images/images_lab10/lab10_intercept_post_containng_comment.jpg)
 
 step 4
 add payload
 `"><script>alert(1)</script><"` into User-Agent
 
-![screenshot](./images/images_lab10/lab10_add_alert_payload.png)
+![screenshot](images/images_lab10/lab10_add_alert_payload.jpg)
 
 after forward request your browser come with pop up
 
-![screenshot](./images/images_lab10/lab10_alert_pop_up.png)
+![screenshot](images/images_lab10/lab10_alert_pop_up.jpg)
 
 inspect the pop up element
 
-![screenshot](./images/images_lab10/lab10_inspect_element_alert_pop_up.png)
+![screenshot](images/images_lab10/lab10_inspect_element_alert_pop_up.jpg)
 
 step 5
 final payload to solve lab
@@ -67,6 +67,6 @@ Content-Length: 12
 userid=test
 ```
 
-![screenshot](./images/images_lab10/lab10_final_payload.png)
+![screenshot](images/images_lab10/lab10_final_payload.jpg)
 
-![screenshot](./images/images_lab10/lab10_lab_solved.png)
+![screenshot](images/images_lab10/lab10_lab_solved.jpg)

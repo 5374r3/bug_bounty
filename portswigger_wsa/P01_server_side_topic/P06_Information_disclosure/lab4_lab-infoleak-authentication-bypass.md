@@ -14,16 +14,16 @@ send request
 now change _GET_ to _TRACE_
 TRACE /admin
 
-![screenshot](./images/lab4_trace_request.png)
+![screenshot](images/lab4_trace_request.jpg)
 
 copy _X-Custom-IP-Authorization:_
 paste into proxy option match and replace section
 
-![screenshot](./images/lab4_match_and_replace.png)
+![screenshot](images/lab4_match_and_replace.jpg)
 
 click on home page
 
-![screenshot](./images/lab_home_page.png)
+![screenshot](images/lab_home_page.jpg)
 
 delete carlos account from admin panel
 

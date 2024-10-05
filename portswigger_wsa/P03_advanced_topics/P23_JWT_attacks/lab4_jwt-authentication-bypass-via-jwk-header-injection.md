@@ -12,15 +12,15 @@ step 1
 
 login in to account send to repeater
 
-![[lab4_my_account.png]]
+![](images/lab4_my_account.jpg)
 
 click on json web token tab for header and payload
 
-![[lab4_json_web_token_my_account.png]]
+![](images/lab4_json_web_token_my_account.jpg)
 
 step 2
 
-![[lab4_RSA_key_generate.png]]
+![](images/lab4_RSA_key_generate.jpg)
 
 step 3
 in sub replace wiener with administrator
@@ -30,17 +30,17 @@ you will notice jwk added into payload
 
 send request 200k
 
-![[lab4_sigining_rsa_key.png]]
+![](images/lab4_sigining_rsa_key.jpg)
 
 when you will get 200 ok go to bottom
 you will see admin panel and wiener and carlos account delete operation
 
-![[lab4_admin_panel.png]]
+![](images/lab4_admin_panel.jpg)
 
 step 4
 
 send GET /admin/delete?username=carlos request to solve lab
 
-![[lab4_delete_carlos_account.png]]
+![](images/lab4_delete_carlos_account.jpg)
 
-![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab4_solved_lab.png]]
+![](images/lab4_solved_lab.jpg)

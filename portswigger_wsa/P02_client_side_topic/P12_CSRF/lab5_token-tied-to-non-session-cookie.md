@@ -59,8 +59,8 @@ csrf and csrfkey both are related to each other
 login to carlos account
 inspect login page for csrfkey and csrf token
 
-![[csrf_token.png]]
-![[csrfkey.png]]
+![](images/csrf_token.jpg)
+![](images/csrfkey.jpg)
 
 ```html
 <html>

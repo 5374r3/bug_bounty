@@ -8,18 +8,18 @@
 
 ### step 1
 
-![screenshot](./images/lab5_burp_collaborator.png)
+![screenshot](images/lab5_burp_collaborator.jpg)
 
 copy to clipborar => ng78fa2r5giig5ivrma3hhkjua01orcg.oastify.com
 
 add https:// => https://ng78fa2r5giig5ivrma3hhkjua01orcg.oastify.com
 
-![screenshot](./images/labe_repeater_with_custom_url.png)
+![screenshot](images/labe_repeater_with_custom_url.jpg)
 
 send request
 
 go to burp collaborator
 
-![screenshot](./images/lab5_burp_collaborator_pull.png)
+![screenshot](images/lab5_burp_collaborator_pull.jpg)
 
 click on pull lab solved

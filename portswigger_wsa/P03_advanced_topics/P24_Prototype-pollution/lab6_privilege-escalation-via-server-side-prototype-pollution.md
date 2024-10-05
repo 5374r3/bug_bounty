@@ -19,13 +19,13 @@ login to account you will get my account with Billing and Delivery address
 when you click submit in burpsuite you will get `/my-account/change-address`
 send to the repeater
 
-![[lab6_billling_address.png]]
+![](images/lab6_billling_address.jpg)
 
 step 2
 
 send request you will get json object with all information
 
-![[lab6_json_object_with_user_information_repeater.png]]
+![](images/lab6_json_object_with_user_information_repeater.jpg)
 
 step 3
 
@@ -37,7 +37,7 @@ add a new property to the JSON with the name `__proto__`, containing an object 
 }
 ```
 
-![[lab6_test_with_property_foo_bar_proto.png]]
+![](images/lab6_test_with_property_foo_bar_proto.jpg)
 
 step 4
 
@@ -49,21 +49,21 @@ add payload  with property `"isAdmin":true`
 }
 ```
 
-![[lab6_change_is_admin_true.png]]
+![](images/lab6_change_is_admin_true.jpg)
 
 step 5
 
 reload home page you will get Admin panel
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab6_admin_panel.png]]
+![](images/lab6_admin_panel.jpg)
 
 
 step 6
 
 Delete carlos account to solve lab
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab6_delete_carlos_account.png]]
+![](images/lab6_delete_carlos_account.jpg)
 
 
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab6_solved_lab.png]]
+![](images/lab6_solved_lab.jpg)

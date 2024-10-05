@@ -5,17 +5,17 @@
 ___
 
 
-![screenshot](lab11_post_request.png)
+![screenshot](images/lab11_post_request.jpg)
 
 send to repeter
 add
 `X-Forwarded-Host: YOUR-EXPLOIT-SERVER-ID.exploit-server.net`
 
-![screenshot](lab11_x-forwarded-host.png)
+![screenshot](images/lab11_x-forwarded-host.jpg)
 
 ip is different from rest of other
-![screenshot](lab11_logfile.png)
+![screenshot](images/lab11_logfile.jpg)
 
-![screenshot](lab11_token_link.png)
+![screenshot](images/lab11_token_link.jpg)
 
 change token and paste into url

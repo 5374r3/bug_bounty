@@ -14,14 +14,14 @@ or
 
 step1
 
-![screenshot](./images/lab10_fetch_stock_price.png)
+![screenshot](images/lab10_fetch_stock_price.jpg)
 
 add &storeId=abcd into url
 
-![screenshot](./images/lab10_modify_productid_stored_id.png)
+![screenshot](images/lab10_modify_productid_stored_id.jpg)
 
 use payload
 
-![screenshot](./images/lab10_payload.png)
+![screenshot](images/lab10_payload.jpg)
 
-![screenshot](./images/lab10_payload_result.png)
+![screenshot](images/lab10_payload_result.jpg)

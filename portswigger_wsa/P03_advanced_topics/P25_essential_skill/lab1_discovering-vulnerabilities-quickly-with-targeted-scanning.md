@@ -7,7 +7,7 @@
 ---
 
 step 1
-![[lab1_product_stock.png]]
+![](images/lab1_product_stock.jpg)
 
 step 2
 add payload
@@ -18,6 +18,6 @@ productId=<foo xmlns:xi="http://www.w3.org/2001/XInclude">
 &storeId=1
 ```
 
-![[lab1_add_payload_etc_password.png]]
+![](images/lab1_add_payload_etc_password.jpg)
 
-![[portswigger_wsa/P03_advanced_topics/P25_essential_skill/images/lab1_solved_lab.png]]
+![](images/lab1_solved_lab.jpg)

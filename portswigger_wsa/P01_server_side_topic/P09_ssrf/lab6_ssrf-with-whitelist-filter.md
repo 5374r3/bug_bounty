@@ -29,12 +29,12 @@ remove http://username add http://localhost
 stockApi=http://localhost%2523@stock.weliketoshop.net
 response => 200 ok
 
-![screenshot](./images/lab6_localhost_response.png)
+![screenshot](images/lab6_localhost_response.jpg)
 
 stockApi=http://localhost%2523@stock.weliketoshop.net/admin
 response 200 ok
 
-![screenshot](./images/lab6_localhost_response_admin_panel.png)
+![screenshot](images/lab6_localhost_response_admin_panel.jpg)
 
 stockApi=http://localhost%2523@stock.weliketoshop.net/admin/delete?username=carlos
 

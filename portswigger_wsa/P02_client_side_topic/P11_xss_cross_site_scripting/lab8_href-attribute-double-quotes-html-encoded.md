@@ -8,11 +8,11 @@
 
 ### step 1
 
-![screenshot](./images/lab8_test_post.png)
+![screenshot](images/lab8_test_post.jpg)
 
 submit form
 
-![screenshot](./images/lab8_inspect_test.png)
+![screenshot](images/lab8_inspect_test.jpg)
 
 payload is
 

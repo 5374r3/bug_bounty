@@ -20,13 +20,13 @@ you will get `/my-account/change-address`
 send to repeater
 
 
-![[lab8_proto_foo_bar_first_request.png]]
+![](images/lab8_proto_foo_bar_first_request.jpg)
 
 
 step 2
 use json space
 
-![[lab8_json_space_info.png]]
+![](images/lab8_json_space_info.jpg)
 
 add a new property to the JSON with the name `__proto__`, containing an object with a `json spaces` property.
 ```
@@ -35,7 +35,7 @@ add a new property to the JSON with the name `__proto__`, containing an object 
 }
 ```
 
-![[lab8_add_json_space_as_properties.png]]
+![](images/lab8_add_json_space_as_properties.jpg)
 
 step 3
 
@@ -49,7 +49,7 @@ you will notice in response tab `"json space": 10` added in json file
 }
 ```
 
-![[lab8_add_constructor_with_json_space.png]]
+![](images/lab8_add_constructor_with_json_space.jpg)
 
 
 step 4
@@ -64,19 +64,19 @@ you will notice in response tab `"isAdmin": true` added in json file
 }
 ```
 
-![[lab8_constructor_is_admin_true_properties.png]]
+![](images/lab8_constructor_is_admin_true_properties.jpg)
 
 step 5
 try to access `/admin` 
 you will get admin panel 
 
-![[lab8_admin_page.png]]
+![](images/lab8_admin_page.jpg)
 
 step 6
 
 delete carlos account to solve lab
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab8_delete_carlos_account.png]]
+![](images/lab8_delete_carlos_account.jpg)
 
 
-![[portswigger_wsa/P03_advanced_topics/P24_Prototype-pollution/images/lab8_lab_solved.png]]
+![](images/lab8_lab_solved.jpg)

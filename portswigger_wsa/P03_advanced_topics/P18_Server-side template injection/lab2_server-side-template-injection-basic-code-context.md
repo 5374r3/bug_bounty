@@ -29,7 +29,7 @@ observe preferred name functionality
 
 comment anything into any post you will see name and comment
 
-![screenshot](./images/lab2_prefered_name.png)
+![screenshot](images/lab2_prefered_name.jpg)
 
 code of the above image is
 
@@ -39,13 +39,13 @@ code of the above image is
 
 if preferred name change name from first name it will be
 
-![screenshot](./images/lab2_prefered_name_first_name.png)
+![screenshot](images/lab2_prefered_name_first_name.jpg)
 
 ### step3
 
 if preferred name change name from nick name it will be
 
-![screenshot](./images/lab2_prefered_name_nickname.png)
+![screenshot](images/lab2_prefered_name_nickname.jpg)
 
 ### step4
 
@@ -53,7 +53,7 @@ if preferred name change name from nick name it will be
 modify this line
 `blog-post-author-display=user.name}}{{7\*\*&csrf=C2REwa5JbF9LA0ruepT0KLstRUHBlmdP
 
-![screenshot](./images/lab2_modify_code_into_repeter.png)
+![screenshot](images/lab2_modify_code_into_repeter.jpg)
 
 ### step4
 
@@ -67,4 +67,4 @@ url encoded ctrl u
 
 and reload blog post
 
-![screenshot](./images/lab2_blog_page_with_error_and_solve_lab.png)
+![screenshot](images/lab2_blog_page_with_error_and_solve_lab.jpg)

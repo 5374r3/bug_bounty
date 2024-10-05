@@ -23,7 +23,7 @@ click on home page and open source code
 
 `<link rel="canonical" href='https://0ad500d9046781128056a8ff005b008e.web-security-academy.net/'/>`
 
-![screenshot](./images/lab20_canonical_link.png)
+![screenshot](images/lab20_canonical_link.jpg)
 
 stpe 2
 
@@ -37,10 +37,10 @@ URL Encoding Reference ' = %27
 'accesskey='x'onclick='alert(1)'
 %27accesskey=%27x%27onclick=%27alert(1)
 
-![screenshot](./images/lab20_accesskey_alert.png)
+![screenshot](images/lab20_accesskey_alert.jpg)
 
 ### step4
 
 remove view-source: from url
 and press alt + x
-![screenshot](./images/lab20_alt_plus_x_key.png)
+![screenshot](images/lab20_alt_plus_x_key.jpg)

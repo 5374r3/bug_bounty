@@ -10,11 +10,11 @@
 
 ### step 1
 
-![screenshot](./images/images_lab3/lab3_get_request_homepage.png)
+![screenshot](images/images_lab3/lab3_get_request_homepage.jpg)
 
 ### step2
 
-![screenshot](./images/images_lab3/lab3_post_request_homepage.png)
+![screenshot](images/images_lab3/lab3_post_request_homepage.jpg)
 
 ### step3
 
@@ -45,8 +45,8 @@ x=1
 
 ```
 
-![screenshot](./images/images_lab3/lab3_payload.png)
+![screenshot](images/images_lab3/lab3_payload.jpg)
 
 ### step4
 
-![screenshot](./images/images_lab3/lab3_solved_message.png)
+![screenshot](images/images_lab3/lab3_solved_message.jpg)

@@ -14,7 +14,7 @@
 - payload section in pink
 - signature section in sky blue
 
-![[lab1_basic_structure_jwt_token.png]]
+![](images/lab1_basic_structure_jwt_token.jpg)
 
 
 ---
@@ -24,39 +24,39 @@ step 1
 login to account on /my-account section you will see jwt token
 send /my-account to repeater send request you will get 200 ok
 
-![[lab1_my_account_jwt_token.png]]
+![](images/lab1_my_account_jwt_token.jpg)
 
-![[lab1_jws_header_payload_json_web_token.png]]
+![](images/lab1_jws_header_payload_json_web_token.jpg)
 
 step 2
 in payload section just change wiener to admin
 but unfortunately you will not get admin panel
 
-![[lab1_change_wiener_to_admin.png]]
+![](images/lab1_change_wiener_to_admin.jpg)
 
 step 3
 now this time try with administrator
 you will get admin panel
 
-![[lab1_administrator_account_admin_panel.png]]
+![](images/lab1_administrator_account_admin_panel.jpg)
 
 to get account details you need admin page
 
-![[lab1_admin_page_loaction.png]]
+![](images/lab1_admin_page_loaction.jpg)
 
 step 4
 once you send request with /admin you will get carlos and wiener account deleting option
 note: token is modified with payload administrator
 
-![[lab1_get_request_for_admin_page.png]]
+![](images/lab1_get_request_for_admin_page.jpg)
 
-![[lab1_render_page_admin_panel.png]]
+![](images/lab1_render_page_admin_panel.jpg)
 
 step 5
 to solve the lab delete carlos account
 just send GET request to `/admin/delete?username=carlos` to delete carlos account
 you will get 302 found
 
-![[lab1_delete_carlos_account_302_found.png]]
+![](images/lab1_delete_carlos_account_302_found.jpg)
 
-![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab1_solved_lab.png]]
+![](images/lab1_solved_lab.jpg)

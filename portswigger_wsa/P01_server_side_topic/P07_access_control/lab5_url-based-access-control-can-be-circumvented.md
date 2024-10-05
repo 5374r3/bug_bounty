@@ -13,7 +13,7 @@ all ### stepdo in repeater with homepage
 
 ### step 1
 
-![screenshot](./images/lab5_x_original_url.png)
+![screenshot](images/lab5_x_original_url.jpg)
 
 in the above example / is replace with /test
 which is invalid address so not found
@@ -22,7 +22,7 @@ same thing we have to try with admin
 
 ### step2
 
-![screenshot](./images/lab5_home_page.png)
+![screenshot](images/lab5_home_page.jpg)
 
 add
 X-Original-URL: /admin
@@ -34,4 +34,4 @@ delete carlos it will say access denied so intercept again add X-Original-URL: /
 now
 add /?username=carlos into get request and X-Original-URL: /admin/delete
 
-![screenshot](./images/lab5_modifed_url.png)
+![screenshot](images/lab5_modifed_url.jpg)

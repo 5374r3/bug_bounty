@@ -25,12 +25,12 @@ ____
     - Encode: `Base64-encode`
 7.  As the **Update email** button is only displayed when you access the `/my-account` page in an authenticated state, we can use the presence or absence of this button to determine whether we've successfully brute-forced the cookie. On the **Options** tab, add a grep match rule to flag any responses containing the string `Update email`. Start the attack.
 
-![screenshot](lab9_position.png)
+![screenshot](images/lab9_position.jpg)
 
-![screenshot](lab9_playload_processing.png)
+![screenshot](images/lab9_playload_processing.jpg)
 
-![screenshot](lab9_result_response.png)
+![screenshot](images/lab9_result_response.jpg)
 
-![screenshot](lab9_carlos_decode_base64.png)
+![screenshot](images/lab9_carlos_decode_base64.jpg)
 
-![screenshot](lab9_crack_hash.png)
+![screenshot](images/lab9_crack_hash.jpg)

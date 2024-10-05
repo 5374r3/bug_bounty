@@ -6,4 +6,4 @@
 
 to solve this lab test various operation
 
-![screenshot](./images/lab12_json_response.png)
+![screenshot](images/lab12_json_response.jpg)
