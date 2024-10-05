@@ -1,5 +1,3 @@
-lab
-
 # JWT authentication bypass via flawed signature verification
 
 ## This lab uses a JWT-based mechanism for handling sessions. The server is insecurely configured to accept unsigned JWTs.
@@ -52,3 +50,7 @@ send GET /admin/delete?username=carlos
 ![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab2_delete_carlos_account.png]]
 
 ![[portswigger_wsa/P03_advanced_topics/P23_JWT_attacks/images/lab2_solved_lab.png]]
+
+
+
+

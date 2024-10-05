@@ -2,14 +2,14 @@
 
 ## To solve the lab, perform a SQL injection attack that logs in to the application as the `administrator` user.
 
-**Note:**
+>**Note:**
 > SELECT \* FROM users WHERE username = 'administrator' AND password = 'administrator'
 > when we log in using username and password the query passed through the above example and if it match with database
 > then you able to login successfully
 > to bypass password credentials you will use -- it consider as comment in sql
 
 ```sql
-SELECT * FROM users WHERE username = 'administrator'--' AND password = 'administrator'
+SELECT * FROM users WHERE username = 'administrator'--' AND password = 'administrator' 
 ```
 
 in the above example `'--` added to the username rest become `comment` whatever you passed into credentials it will always come inside single quotes _' '_
