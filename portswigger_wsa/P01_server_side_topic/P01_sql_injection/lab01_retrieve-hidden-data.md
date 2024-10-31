@@ -18,7 +18,7 @@ step 1
 click on any category 
 like here lifestyle click on lifestyle `/filter?category=Lifestyle`
 
-![screnshot](images/lab1_category_life_style.jpg)
+![screnshot](lab1_category_life_style.jpg)
 
 
 step 2
@@ -26,10 +26,10 @@ step 2
 use burpsuite to trace all traffic 
 in burpsuite go to proxy => http history => you will see `/filter?category=Lifestyle` send to repeater
 
-![screnshot](images/lab1_http_history_lifestyle.jpg)
+![screnshot](lab1_http_history_lifestyle.jpg)
 
 
-![screnshot](images/lab1_repeater_lifestyle.jpg)
+![screnshot](lab1_repeater_lifestyle.jpg)
 
 step 3
 
@@ -37,11 +37,11 @@ add `'--` at the end of URL request
 `/filter?category=Lifestyle'--`
 send request you will get 200 response
 
-![screnshot](images/lab1_add_first_payload.jpg)
+![screnshot](lab1_add_first_payload.jpg)
 
 in render section you see only lifestyle related product showing
 
-![screnshot](images/lab1_render_lifestyle_repeater.jpg)
+![screnshot](lab1_render_lifestyle_repeater.jpg)
 
 SQL query be like
 ```sql
@@ -55,7 +55,7 @@ add `'+OR+1=1--` at the end of URL request
 send request you will get 200 response
 go to render section you will notice there are hidden product also visible with lifestyle
 
-![screnshot](images/lab1_hidden_data.jpg)
+![screnshot](lab1_hidden_data.jpg)
 
 SQL query be like
 ```sql
@@ -66,4 +66,4 @@ step 5
 
 reload home page into browser to solve lab
 
-![screnshot](images/lab1_solved_lab.jpg)
+![screnshot](portswigger_wsa/P01_server_side_topic/P01_sql_injection/images/lab1_solved_lab.jpg)

